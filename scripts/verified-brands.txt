@@ -1,0 +1,476 @@
+# WSG verified brand whitelist — generated from .claude-skill/source-verification.md tiers 1 + 2.
+# Add new entries here as they're verified for the first time. One brand per line.
+# Used by check_article.py to flag any capitalized brand-name pattern in an article
+# that doesn't appear in this list as a potential fabrication risk.
+
+# Bulge bracket banks (Tier 1)
+Goldman Sachs
+JPMorgan
+J.P. Morgan
+JPM
+Morgan Stanley
+Bank of America
+BofA
+Citi
+Citigroup
+Barclays
+Deutsche Bank
+UBS
+Wells Fargo
+RBC Capital Markets
+
+# MBB (Tier 1)
+McKinsey & Company
+McKinsey
+Boston Consulting Group
+BCG
+Bain & Company
+Bain
+
+# Big 4 (Tier 1)
+Deloitte
+EY
+Ernst & Young
+KPMG
+PwC
+PricewaterhouseCoopers
+
+# Mega-fund PE (Tier 1)
+Blackstone
+KKR
+Apollo
+Carlyle
+Bain Capital
+Vista Equity Partners
+Vista Equity
+Thoma Bravo
+Silver Lake
+
+# Top-tier VC (Tier 1)
+Sequoia Capital
+Sequoia
+Andreessen Horowitz
+a16z
+Benchmark
+Accel
+Founders Fund
+Kleiner Perkins
+NEA
+Greylock
+
+# Top-tier hedge funds (Tier 1)
+Citadel
+Millennium
+Bridgewater
+Point72
+Two Sigma
+Renaissance Technologies
+Brevan Howard
+
+# Elite boutique banks (Tier 2)
+Evercore
+PJT
+PJT Partners
+Centerview
+Centerview Partners
+Moelis
+Lazard
+Greenhill
+Houlihan Lokey
+Guggenheim
+Perella Weinberg
+Qatalyst
+Qatalyst Partners
+Tidal Partners
+
+# Upper-middle-market PE (Tier 2)
+Audax
+GTCR
+Madison Dearborn
+Hellman & Friedman
+Berkshire Partners
+Genstar
+Veritas Capital
+
+# Growth equity (Tier 2)
+Insight Partners
+General Atlantic
+TA Associates
+Summit Partners
+Spectrum Equity
+Susquehanna Growth Equity
+HOF Capital
+
+# Tier 2 strategy consulting
+Oliver Wyman
+Strategy&
+A.T. Kearney
+Kearney
+L.E.K.
+LEK
+Roland Berger
+Accenture Strategy
+Accenture
+
+# Big 4 strategy practices
+Monitor Deloitte
+EY-Parthenon
+PwC Strategy&
+KPMG Strategy
+
+# Boutique consulting
+ZS Associates
+ZS
+Putnam Associates
+Clearview Healthcare Partners
+Clearview
+Health Advances
+Altman Solon
+Simon-Kucher
+Prophet
+Innosight
+Strategic Decisions Group
+SDG
+AlphaSights
+Maine Pointe
+
+# Economic consulting (Tier 2)
+Analysis Group
+Cornerstone Research
+NERA
+NERA Economic Consulting
+Compass Lexecon
+Bates White
+Brattle Group
+Charles River Associates
+CRA
+
+# PE headhunters (Tier 2)
+Henkel Search Partners
+HSP
+CPI Partners
+CPI
+Amity Search Partners
+Amity
+SG Partners
+Ratio Advisors
+BellCast Partners
+BellCast
+Glocap
+Glocap Search
+Oxbridge Group
+Dynamics Search Partners
+DSP
+Gold Coast Search Partners
+
+# Prep platforms (Tier 2)
+Wall Street Prep
+WSP
+Breaking Into Wall Street
+BIWS
+Mergers & Inquisitions
+Macabacus
+Wall Street Oasis
+WSO
+IGotAnOffer
+PrepLounge
+Management Consulted
+Wall Street Mastermind
+Office Hours
+Peak Frameworks
+Leland
+Hacking the Case Interview
+Crafting Cases
+MyConsultingOffer
+
+# VC fellowships (Tier 2)
+Kleiner Perkins Fellows
+Dorm Room Fund
+Contrary
+NEO Scholars
+NEO
+General Catalyst Venture Fellows
+General Catalyst
+Bessemer Venture Partners
+Bessemer
+
+# Prop trading / market makers
+Jane Street
+Citadel Securities
+Optiver
+IMC
+SIG
+Susquehanna
+
+# Asset management
+PIMCO
+BlackRock
+Wellington
+Capital Group
+
+# Big 4 strategy / restructuring boutiques (RX)
+Alix Partners
+AlixPartners
+
+# Books / resources
+Case in Point
+Case Interview Secrets
+Investments
+Options Futures and Other Derivatives
+Heard on the Street
+
+# WSG
+Wall Street Guide
+WallStreetGuide
+WSG
+
+# Universities and schools (for context use)
+Harvard
+Yale
+Princeton
+Stanford
+Wharton
+MIT
+Columbia
+Duke
+Northwestern
+Chicago
+Berkeley
+UVA
+Michigan
+Dartmouth
+Cornell
+Brown
+Williams
+Amherst
+Phillips Exeter
+
+# Verified Aug 11 2026 batch (12-article run) — all confirmed via agent web verification
+Sova Assessment
+TestGorilla
+HireQuotient
+SHL
+JobTestPrep
+AssessmentDay
+RocketBlocks
+CaseCoach
+MyConsultingOffer
+My Consulting Offer
+Casebasix
+MConsultingPrep
+My Consulting Coach
+MyConsultingCoach
+Trinity Life Sciences
+DeciBio
+Inizio
+Inizio Ignite
+Huron
+Parexel
+EQT
+Marc Cosentino
+Vault
+Poets and Quants
+Glassdoor
+Levels.fyi
+Marsh McLennan
+Eastdil Secured
+Eastdil Secured Savills
+Savills
+JLL
+JLL Capital Markets
+CBRE
+CBRE Capital Advisors
+Newmark
+Walker & Dunlop
+Berkadia
+Berkshire Hathaway
+Trimont
+Lineage
+Retail Opportunity Investments
+AIR Communities
+Paramount Group
+Rithm Capital
+LionTree
+Allen & Company
+Allen & Co
+BDT & MSD
+Cushman & Wakefield
+Colliers
+Fannie Mae
+Freddie Mac
+MSCI
+Real Capital Analytics
+Real Estate Alert
+Mortgage Bankers Association
+GIC
+Store Capital
+Temasek
+Ducera
+Ducera Partners
+Rothschild & Co
+Rothschild
+Mizuho
+Miller Buckfire
+Octus
+Reorg
+FTI Consulting
+Alvarez & Marsal
+Kirkland & Ellis
+Akin Gump
+PACER
+Pari Passu
+United Site Services
+PDVSA
+Marelli
+First Brands
+Spirit Airlines
+Wolfspeed
+Quest Software
+Modivcare
+Clearlake
+Oaktree
+HPS
+Sixth Street
+Silver Point
+Centerbridge
+Elliott
+Davidson Kempner
+Anchorage
+Marathon
+Monarch
+Whitebox
+S&P Global
+S&P Global Market Intelligence
+Leerink Partners
+SVB
+Baupost
+TD Cowen
+TD Securities
+William Blair
+Baird
+Robert W. Baird
+Piper Sandler
+Raymond James
+Harris Williams
+PNC
+Lincoln International
+Oppenheimer
+Capstone Partners
+TM Capital
+Janney
+Huntington
+Huntington Bancshares
+BGL
+Brown Gibbons Lang
+Inner Circle Sports
+Mergermarket
+PitchBook
+GlobalData
+LSEG
+Dealogic
+Refinitiv
+Bloomberg
+Reuters
+Axios
+Financial Times
+Union Pacific
+Norfolk Southern
+NextEra Energy
+NextEra
+Dominion Energy
+Electronic Arts
+Affinity Partners
+Public Investment Fund
+Kimberly-Clark
+Kenvue
+Charter Communications
+Cox Communications
+Alphabet
+Wiz
+Warner Bros. Discovery
+Skydance
+Paramount
+Paramount Skydance
+Netflix
+Johnson & Johnson
+Intra-Cellular Therapies
+Merck
+Verona Pharma
+Merck KGaA
+SpringWorks Therapeutics
+Pfizer
+Metsera
+Novo Nordisk
+Novartis
+Avidity Biosciences
+Genmab
+Merus
+Sanofi
+Gilead
+Sun Pharma
+Organon
+GSK
+Mallinckrodt
+Endo
+Zimmer Biomet
+Paragon 28
+Waters
+Becton Dickinson
+BD Biosciences
+CNBC
+Boston Globe
+Jefferies
+Cantor Fitzgerald
+Cantor
+HackerRank
+CoderPad
+HireVue
+CodeSignal
+LeetCode
+Frontier Waste Solutions
+GFL Environmental
+Filtration Group
+Parker-Hannifin
+Highline Aftermarket
+Pritzker Private Capital
+Debtwire
+The Deal
+Fortune
+Zelman
+KBW
+Stifel
+Guggenheim Partners
+Guggenheim Securities
+Wells Fargo Securities
+Bain Build
+Building Entrepreneurial Leaders
+BEL
+CREW
+McKinsey Insight
+Growing Future Leaders
+GFL
+Bridge to BCG
+Solve
+Casey
+SOVA
+CCA
+Consulting Career Assessment
+PEI
+Redrock
+Sea Wolf
+Sustainable Futures Lab
+Beautify
+Diconsa
+Electro-Light
+Talbot Trucks
+Coffee Shop Co.
+FashionCo
+WumbleWorld
+SuperSoda
+GenCo
+Duraflex
+Foods Inc.
+AB InBev
+SABMiller
+Venezuela
+Bolivarian Republic of Venezuela
