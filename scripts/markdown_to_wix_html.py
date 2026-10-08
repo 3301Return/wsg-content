@@ -35,6 +35,12 @@ def convert(md_path):
         extensions=["extra", "sane_lists"],
     )
 
+    # ![alt](src "caption") -> <figure><img><figcaption>caption</figcaption></figure> (October 2026)
+    html_body = re.sub(
+        r'<p>(<img [^>]*?title="([^"]*)"[^>]*>)</p>',
+        lambda m: f"<figure>{m.group(1)}<figcaption>{m.group(2)}</figcaption></figure>",
+        html_body,
+    )
     full_html = f"""<!DOCTYPE html>
 <html>
 <head>
@@ -51,6 +57,9 @@ def convert(md_path):
   strong {{ font-weight: 700; }}
   ol, ul {{ margin: 0.8em 0; padding-left: 1.5em; }}
   li {{ margin: 0.4em 0; }}
+  figure {{ margin: 1.2em 0; text-align: center; }}
+  figure img {{ max-width: 100%; height: auto; border: 1px solid #ddd; }}
+  figcaption {{ font-size: 0.9em; color: #555; margin-top: 0.4em; font-style: italic; }}
 </style>
 </head>
 <body>

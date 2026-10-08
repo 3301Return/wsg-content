@@ -1,19 +1,19 @@
 # Niche Template
 
-**Use when:** Hyper-specific firm/role posts, edge-case student situations, or honest reviews. The niche template flexes across all three sub-types.
+**Use when:** Firm/role posts, edge-case student situations, or honest reviews. The niche template flexes across all three sub-types.
 **Examples:** "How to Break Into Evercore Restructuring" · "Breaking Into IB From a Junior Transfer at a Non-Target" · "Is Wall Street Prep Worth It? 4 Pros and Cons You Need to Know"
-**Word count:** ~1,800 to 2,200 as a guideline, not a limit. Longer is fine when the topic needs room; slightly shorter is fine only for genuinely narrow niches. Never cut an explanation to hit the number.
-**Required:** 1-2 H2 sub-questions · Heavy use of specifics (firm names, real numbers, named scenarios) · Anchored to a deep-dive when one exists
+**Length target:** about 4,500 to 5,500 words (about 20 to 25 pages in the built .docx before images). Narrow niches can be much shorter. Longer only when the topic truly needs it; say why in the Thoroughness Report.
+**Required:** Direct-answer intro · 1-2 H2 sub-questions · Heavy use of specifics (firm names, real numbers, named scenarios) · Anchored to a deep dive when one exists
 
 ---
 
 ## SUB-TYPE: pick one
 
 **A. Firm/role deep dive** (e.g., "How to Break Into Evercore Restructuring")
-- Body structure: How the firm/role differs · Recruiting timeline & process · What they actually look for · How to network specifically here · Common mistakes
+- Body structure: What the firm/role is and does · Recruiting timeline & process · What they look for · How to network here · Interview prep
 
 **B. Edge-case student** (e.g., "Breaking Into IB From a Non-Target as a Junior Transfer")
-- Body structure: Why this situation feels harder than it is · The two or three real obstacles · How to neutralize each · Realistic timeline · Who has done this before
+- Body structure: The two or three real obstacles · How to handle each · Realistic timeline · Who has done this before
 
 **C. Honest review** (e.g., "Is Wall Street Prep Worth It")
 - Body structure: What it is · Pros (specific) · Cons (specific) · Who should use it · Who should skip it · Cheaper or better alternatives
@@ -21,51 +21,44 @@
 ---
 
 ## TITLE
-{Exact headline from content calendar}
+{Exact headline. Simple and direct.}
 
 ## META DESCRIPTION
-{1-2 sentences, 150-160 chars. Niche keywords often have lower volume — make the meta concrete to win the click.}
+{1-2 sentences, 150-160 chars. Make it concrete to win the click.}
 
-## INTRODUCTION (2-3 short paragraphs)
+## INTRODUCTION (two to five sentences)
 
-Open with the specific scenario. Niche posts win when they signal "I am exactly the post you're looking for" in the first sentence.
+Follow `.claude-skill/intros.md`. Sentence one says what the firm, situation or product is, or answers the title. A bolded full sentence with the most useful fact. Last sentence says what the article covers.
 
-Acknowledge what the reader is probably worried about. Resolve it briefly. Promise the specifics they came for.
+Reviews can open with plain first-person framing, as in Stephen's reference: "I get asked about Wall Street Prep a lot. Students want to know if it's worth the money, whether it'll actually help them get an offer, and whether there's something better they should be using instead." No bio, no story.
 
 ## H2 SUB-QUESTIONS (1-2)
 
-**{Long-tail search query for this niche?}**
-{2-4 sentences. Niche posts often rank for these — make the answer crisp.}
+**{The reader's exact long-tail question?}**
+{First sentence answers it. 2-4 sentences total.}
 
 ## BODY (use the structure from your sub-type above)
 
-### Section 1: {Name it concretely}
+### Section 1: {Plain descriptive header}
 
-Lead with what makes this situation/firm/product different. Then specifics.
+Lead with what makes this situation, firm or product different. Then specifics. If a `deep-dives/{topic}.md` exists, pull the names, processes and numbers that answer the reader's question.
 
-If a `deep-dives/{topic}.md` exists, pull from it here — names, processes, numbers — so the post reads like real knowledge instead of a Wikipedia sketch.
+### Section 2: {Plain descriptive header}
 
-### Section 2: {Name it concretely}
+{Same pattern.}
 
-{Same pattern — specifics over generalities.}
+## CONCLUSION (one short paragraph)
 
-{Continue per the sub-type body structure.}
-
-## CONCLUSION (1-2 paragraphs)
-
-Niche conclusions should:
-- Tell the reader exactly what to do next given their specific situation
-- Reference one specific person/scenario who has done this before
-- Avoid the generic "good luck with your journey" tone
+Tell the reader exactly what to do next given their situation. No recap, no "good luck with your journey."
 
 ---
 
 ## Generation rules (for the skill)
 
-- BEFORE writing: check `deep-dives/` for a relevant guide. If one exists, read it and pull specific names, numbers, and processes from it.
-- Niche posts MUST contain at least one named firm, real timeline, or first-person scenario per section. Generic niche posts are worse than no niche posts.
-- Reviews must include real cons. If you can't think of a real con, you haven't researched the product.
-- Pull tone from samples in `samples/niche/` matching the sub-type (firm deep dive vs review vs edge-case)
-- No em-dashes or hyphens as structural punctuation
-- Long-tail keywords are low-volume but high-intent — write for the one specific reader, not for breadth
-- Firm/role posts are where technical mechanics show up most (RX process, group-specific technicals, product structures). Explain the machinery in plain words at first use and walk every process step by step. Run `.claude-skill/plain-language.md` and `.claude-skill/thorough-explanations.md` before delivery.
+- BEFORE writing: check `deep-dives/` for a relevant guide.
+- At least one named firm, real timeline, or concrete scenario per section.
+- Reviews must include real cons.
+- Calibrate on `samples/reference-articles.md` (the Wall Street Prep review and McKinsey Solve guide are the closest). Never on AI drafts.
+- No em dashes or hyphens as structural punctuation.
+- Write for the one specific reader; long-tail keywords are high-intent.
+- Firm/role posts carry the most technical mechanics. Explain them in plain words at first use, one worked example per mechanism. Run `.claude-skill/plain-language.md`, `.claude-skill/thorough-explanations.md` and `.claude-skill/prose-editing.md` before delivery, and check the length target.

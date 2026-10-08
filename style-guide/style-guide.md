@@ -55,7 +55,7 @@ What sets a WSG post apart is real experience. But having it is not enough. It n
 6. **Write short sentences for key points.**
    - Good: "A generic story is instantly forgettable. Forgettable candidates don't get offers."
 
-7. **Sound like someone who has been through it.** Use first-person experience, named situations, real numbers.
+7. **Sound like someone who knows the process.** Use named situations, real numbers and sources. Write as WSG ("we" and "you"), never first person "I" (October 7, 2026).
 
 8. **Bold full sentences that carry insight.** Not random words — full sentences that the reader could pull as a quote.
    - Good: **"A 3.3 GPA with a strong network will outperform a 3.8 GPA with no relationships."**
@@ -103,19 +103,14 @@ Use the exact headline from the content calendar. Do not change it.
 ### Meta description
 1 to 2 sentences, 150 to 160 characters, including the keyword naturally. Write separately from the post.
 
-### Introduction
-Two jobs:
+### Introduction (October 7, 2026: short and optional)
+Get to the point. An intro is optional; when there is one, it's two or three plain sentences: the topic, why it matters to the reader, and what the article covers. No hooks, stories, tension or author introduction. Full rules in `.claude-skill/intros.md`.
 
-1. Make the reader feel understood
-2. Give them a reason to keep reading
+**Example (the founder's model):**
 
-A strong intro reflects the reader's situation, creates tension, and resolves it quickly. It should end with a clear promise of value.
-
-**Example (from "How to Break Into Investment Banking"):**
-
-> Most students assume breaking into investment banking requires a finance degree, a target school, and a father who golfs with a Goldman partner. None of that is true. Every year, students from large state schools, non-finance majors, and first-generation backgrounds land offers at Goldman Sachs, Evercore, and Morgan Stanley. They do it by understanding a process most of their peers never figure out. This guide breaks that process down into ten concrete steps, starting from wherever you are right now.
-
-**Why this works:** Opens with the reader's assumption, not a definition. Skips basic explanations. Creates tension, then resolves it. Ends with a clear promise.
+> If you're in consulting, you've probably heard about the MECE framework. It's one of the frameworks you learn in consulting, and you need it to do well in the interview.
+>
+> In this article, we go over what it is, how to use it, and some common misconceptions.
 
 ### H2 sub-questions (required)
 After the intro, include 1 to 2 H2 questions that reflect real search queries. Answer each in 2 to 4 sentences. These help with SEO, AI summaries, and featured snippets.
@@ -148,8 +143,8 @@ Do not repeat the post. Push the reader to the next step: a decision, a shift in
 
 ### Insight-led / ultimate guides
 - Each section is an insight, not a topic
-- Strong, opinionated headings
-- Back claims with experience
+- Plain, literal headings a reader understands without the section (no metaphors or clever colon halves)
+- Back claims with specifics: named firms, real numbers, sources
 - Tie every insight to action
 - Maintain a clear argument throughout
 - Do not summarize — assert
@@ -216,7 +211,7 @@ AI writes very clean transitions: "But you are not out of options." "Here is the
 
 ### The "you" overload
 
-AI loves second-person address. Every other sentence becomes "you should," "if you are," "you will find." Real WSG writers slip in and out of second person depending on what they are arguing. **Replace one in three "you" instances with first person, third person, or a direct claim.** "You should network before applications open" becomes "Networking before applications open is what separates the offers from the rejections."
+AI loves second-person address. Every other sentence becomes "you should," "if you are," "you will find." Real WSG writers slip in and out of second person depending on what they are arguing. **Replace one in three "you" instances with a direct claim or third person.** "You should network before applications open" becomes "Networking before applications open is what separates the offers from the rejections."
 
 ### Named specifics that are not actually named
 

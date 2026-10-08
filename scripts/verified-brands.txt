@@ -474,3 +474,86 @@ AB InBev
 SABMiller
 Venezuela
 Bolivarian Republic of Venezuela
+
+# Verified October 1, 2026 batch (LBO, finance resume, AM prep, NWC, 3-statement, consulting resume, 20 behavioral, Bain v2, BCG v2, 10 case examples)
+A Simple Model
+Corporate Finance Institute
+Mergers & Inquisitions
+PitchBook LCD
+Energy Future Holdings
+Public Investment Fund
+Affinity Partners
+Silver Lake
+Stern Metals
+Bear Stearns
+Oxford Said Business School
+Hilton
+Electronic Arts
+RJR Nabisco
+TXU
+TheLadders
+Ladders
+Fox Business
+Business Insider
+Yahoo Finance
+Fidelity
+T. Rowe Price
+Capital Group
+Wellington Management
+PIMCO
+Vanguard
+Invesco
+Franklin Templeton
+Neuberger Berman
+Dodge & Cox
+AllianceBernstein
+MFS
+Loomis Sayles
+Morgan Stanley Investment Management
+Goldman Sachs Asset Management
+J.P. Morgan Asset Management
+Capital Associates Program
+FactSet
+Morningstar
+Magellan Fund
+Chicago Bridge & Iron
+Westinghouse
+Stone & Webster
+Motley Fool
+Brigham and Houston
+Otis Worldwide
+VisiCalc
+Yale Program on Financial Stability
+University of Massachusetts Amherst
+Harvard Business School
+Codex Atlanticus
+Biblioteca Ambrosiana
+Deloitte
+L.E.K. Consulting
+BCG Embark
+BCG Launch
+OneDay@BCG
+Consulting Career Assessment
+Boston Safe Deposit and Trust Company
+Consulting Kickstart
+First Forward
+BASE Camp
+Bain Capital
+Glassdoor
+Beyond the Bio
+CaseCoach
+RocketBlocks
+Crafting Cases
+Management Consulted
+Hacking the Case Interview
+Amplify Snack Brands
+Hershey
+Mister Car Wash
+Leonard Green & Partners
+Veterinary Pet Insurance
+Nationwide
+NAPHIA
+US Tire Manufacturers Association
+Cinema United
+Southwest Airlines
+Los Alamos National Laboratory

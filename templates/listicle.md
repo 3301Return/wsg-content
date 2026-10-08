@@ -1,72 +1,71 @@
 # Listicle Template
 
 **Use when:** Curated resource roundups, ranked lists, "top N" posts.
-**Examples:** "Top 10 Free Resources for Investment Banking Interview Questions in 2026" · "10 Free Resources for Case Consulting Prep"
-**Word count:** ~1,800 to 2,200 as a guideline, not a limit. Longer is fine when the items need room (a 20-question listicle will naturally run past it). Never cut an explanation to hit the number.
-**Required:** Exact count from headline · 1-2 H2 sub-questions · Inline anchor-word hyperlinks (not URL footers) · **Bolded lead-claim sentence + bolded concrete-takeaway sentence per item** (the skim narrative)
+**Examples:** "Top 10 Sophomore Insights Programs for IB" · "10 Investment Banking Internships to Apply To in 2027" · "Top 10 Free Resources for Investment Banking Interview Questions in 2026"
+**Length target:** about 4,500 to 6,000 words (about 20 to 25 pages in the built .docx before images). Shorter is fine when the list is covered. A 50-question list can run longer; say why in the Thoroughness Report.
+**Required:** Exact count from headline · 1-2 H2 sub-questions phrased as the reader's exact question · Inline anchor-word hyperlinks · **Bolded lead-claim sentence + bolded concrete-takeaway sentence per item** (the skim narrative)
 
 ---
 
 ## TITLE
-{Exact headline from content calendar}
+{Exact headline. Simple and direct: the count, the topic in search words, the year if it applies. "Top 10 Sophomore Insights Programs for IB."}
 
 ## META DESCRIPTION
 {1-2 sentences, 150-160 chars, includes target keyword and the count}
 
-## INTRODUCTION (2-3 short paragraphs)
+## INTRODUCTION (one to three sentences)
 
-Open with the reader's pain or a contrarian observation about the category. Skip "in this article we will."
-
-End with what the reader will leave with: "Here are the {N} resources I recommend, ranked by where they fit in your prep."
+Fast and to the point, then the list. Sentence one tells the reader what the list is or the one fact that frames it ("If you're applying to Investment Banking Summer Analyst programs in 2027, you're competing for Summer 2028 seats."). A bolded full sentence with a real number can follow ("Students who get into one of these programs are roughly 5 to 10 times more likely to convert into a Summer Analyst offer..."). Optionally one line on how the list is ordered. No story, no scene, no "most students."
 
 ## H2 SUB-QUESTIONS (1-2)
 
-**{Real search query the reader is also asking?}**
-{2-4 sentence answer.}
+**{The reader's exact search question? e.g., "What is a sophomore insights program?"}**
+{First sentence answers it directly. 2-4 sentences total.}
 
 ## BODY: NUMBERED LIST (SKIM-OPTIMIZED FORMAT)
 
-Per the June 2026 editorial review, every listicle item MUST use the three-element pattern below. The bolded lead-claim + bolded concrete-takeaway together form the skim narrative. Reading just the bolded sentences in order must tell the article's argument.
+Group items under plain H2s when the list has natural groups (Bulge Bracket / Elite Boutique / Boutique). Every item uses this pattern. Reading only the bolded sentences in order must tell the article's argument.
 
 ### Required structure per item
 
 ```
 ### N. [{Resource name}]({url})
 
-**{Lead-claim sentence in one line: what makes this distinct, who it's for, what trade-off it carries.}**
+**{Lead-claim sentence: what makes this distinct, who it's for, what trade-off it carries.}**
+
+{One short paragraph, 2-3 sentences.}
 
 - Website: {url or domain}
 - Format: {short}
 - Pricing / Cost: {short}
 - Eligibility: {short}
 - Best for: {short}
-- Cons: {short — sourced from real reviews if available}
+- Cons: {short, sourced from real reviews if available}
 
-**Concrete takeaway: {one-sentence action — when to pick it, when to skip, what to pair with.}**
+**Concrete takeaway: {one-sentence action: when to pick it, when to skip, what to pair with.}**
 ```
 
-Notes on the structure:
-- The bullet field labels (Website:, Format:, etc.) are NOT bolded in v3 onward. The lead claim and concrete takeaway carry the skim narrative.
-- The lead claim must be a complete sentence with a verb. Not a label, not a fragment.
-- The concrete takeaway must be actionable. Not "this is great." Yes "Buy WSP if your gap is modeling."
-- For question-listicles (interview questions), the answer walk-through under each item is where thoroughness matters most. Give the full reasoning in plain words, step by step, not a one-line model answer. The bullet structure stays; the explanation under it gets the room it needs.
+Notes:
+- Field labels are not bolded. The lead claim and concrete takeaway carry the skim narrative.
+- The lead claim is a complete sentence with a verb and, where possible, a fact.
+- The concrete takeaway is actionable. "Buy WSP if your gap is modeling."
+- For question-listicles, the answer walk-through under each item gets the room it needs, in plain words, step by step. Keep each answer to what the interviewer is testing; skip second worked examples.
 
-## CONCLUSION (1-2 paragraphs)
+## CONCLUSION (one short paragraph)
 
-Tell the reader where to start. Share the principle behind the list.
+Tell the reader where to start. No recap of the list.
 
 ## ADDRESS WHAT'S NOT ON THE LIST
 
-For "Top N" lists where well-known resources or firms don't appear, include a short section explaining how to think about them. The reader will notice the gap and bounce if it isn't addressed.
+For "Top N" lists where well-known resources or firms don't appear, a short section on how to think about them. A paragraph, not a second list.
 
 ---
 
 ## Generation rules (for the skill)
 
 - HARD RULE: count must match the headline exactly.
-- HARD RULE: each item has a bolded lead-claim sentence and a bolded concrete-takeaway sentence. Run `python3 scripts/check_style.py drafts/{file}.md` to verify before docx build.
-- Every link must be an inline anchor on the resource name.
-- Pull tone from at least one listicle sample in `samples/listicles/` (gold standard: PE Recruiters listicle).
-- No em-dashes or hyphens as structural punctuation in body copy.
-- Reading only the bolded sentences in order MUST tell the article's argument. Run the skim test.
-- Run `.claude-skill/plain-language.md` and `.claude-skill/thorough-explanations.md` before delivery. `check_style.py`'s "item too chunky" warning is about skimmability of the description block, not a reason to drop steps from a technical answer; keep the bullets tight and put the walk-through in the explanation.
+- HARD RULE: each item has a bolded lead-claim sentence and a bolded concrete-takeaway sentence. Run `python3 scripts/check_style.py drafts/{file}.md`.
+- Every link is an inline anchor on the resource name.
+- Calibrate on `samples/reference-articles.md` (Sophomore Insights, 2027 internships, free resources). Never on AI drafts.
+- No em dashes or hyphens as structural punctuation in body copy.
+- Run `.claude-skill/plain-language.md`, `.claude-skill/thorough-explanations.md` and `.claude-skill/prose-editing.md` before delivery, and check the length target.

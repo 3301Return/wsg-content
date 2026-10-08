@@ -9,6 +9,9 @@ default: true
 
 # Stephen Turban — Writer Profile
 
+> **Retired for drafting (October 7, 2026).** Articles no longer carry Stephen's byline, an author intro, or first-person voice. Write as WSG in "we" and "you." This profile is kept for history only.
+
+
 ## Background
 
 - **Harvard alumnus.** Harvard College '17, statistics. Public high school in Missouri before that. Deeply networked into the Ivy → finance/consulting pipeline.

@@ -1,52 +1,10 @@
 # Consulting-Article Voice Cues
 
-This file layers on top of `style-guide/style-guide.md` and `writers/stephen-turban.md`. All existing voice rules (no em-dashes, no filler, contractions, bolded sentences are self-contained, etc.) still apply. The notes below are consulting-specific.
+This file layers on top of `style-guide/style-guide.md`. All existing voice rules (no em-dashes, no filler, contractions, bolded sentences are self-contained, etc.) still apply. The notes below are consulting-specific.
 
-## Stephen Turban's angle on consulting (mixed)
+## Voice (October 7, 2026)
 
-Per the writing-mix decision: first-person on recruiting / pipeline articles, operator framing on firm comparisons.
-
-### Use first-person McKinsey experience on:
-
-- Recruiting timeline articles
-- Case interview prep articles
-- Behavioral interview articles
-- Networking articles
-- "How to break in" articles
-- Day-in-the-life or culture articles
-- Career-path / exit-options articles
-
-**Example byline paragraphs for first-person consulting articles:**
-
-> When I was at McKinsey, the first thing I learned about case interviews wasn't a framework — it was that the partners I sat across from weren't testing whether I could recite Porter's Five Forces. They were testing whether I could think.
-
-> I went through MBB on-cycle recruiting myself. This guide is the version I wish someone had given me when I was a junior trying to crack the McKinsey BA seat.
-
-> My first McKinsey engagement was a healthcare strategy project for a regional hospital system. The frameworks I had memorized for the interview helped me get the offer; they were almost useless for the actual work.
-
-### Use operator framing (NOT first-person) on:
-
-- Firm-by-firm comparisons (MBB vs tier 2 vs Big 4)
-- Specific firm profiles other than McKinsey (BCG, Bain, OW, EYP, etc.)
-- Ranked lists ("Top 10 Consulting Firms for Undergrads")
-- Industry analysis (consulting as a sector, exit options as a market)
-- Salary / comp comparisons across firms
-
-**Example byline paragraphs for operator framing on consulting:**
-
-> As a Harvard alum, former McKinsey consultant, and founder of WSG, I watch students break into consulting every cycle. This list ranks the 10 strategy firms worth your time in 2026.
-
-> I went through MBB on-cycle myself, so I have direct line of sight into McKinsey. For BCG and Bain I'm relying on what I see from the WSG candidates we coach into each firm.
-
-**Why the mix matters:** Stephen actually went to McKinsey. He can speak first-person about McKinsey culture, McKinsey case style, and the McKinsey on-cycle. He cannot — and should not — pretend first-person knowledge of BCG or Bain. The mix protects credibility.
-
-### What NOT to write
-
-- "When I was at BCG..." or "When I was at Bain..." — Stephen was never at either firm.
-- "On my deal team at Strategy&..." — Stephen never worked at a Big 4 strategy practice.
-- "Back in my analyst days at Goldman..." — not a banker. This sneaks in from IB articles. Catch it.
-- "As an IB analyst..." — Same. The default-banker framing is the most common voice mistake in this folder.
-- Anything that implies Stephen is a current consultant. He's a WSG founder now. His McKinsey is past tense.
+Every consulting article is written as WSG in plain "we" and "you." No first person, no author introduction, no byline, no McKinsey memories, on every article type. The older mixed rule (first-person McKinsey on recruiting articles, operator framing on comparisons) is retired.
 
 ## Consulting-specific terminology
 
@@ -90,13 +48,11 @@ WSG should never publish an article that does any of these:
 
 ## The meta description rule for consulting articles
 
-Follow the standard WSG rule: lead with "WSG founder Stephen Turban..." and lead with the article's specific value.
+Lead with the topic and say what the article covers, 150 to 160 characters, keyword included. No person named.
 
-Examples:
-
-- "WSG founder Stephen Turban ranks the 10 management consulting firms worth applying to in 2026, with eligibility and deadlines."
-- "WSG founder Stephen Turban breaks down how to land a McKinsey Business Analyst offer as an undergrad: the timeline, the case prep that actually works, and the McKinsey-specific filters."
-- "WSG founder Stephen Turban explains the consulting recruiting timeline for 2026, including the 2-4 month deadline shift at MBB."
+- "The 10 management consulting firms worth applying to in 2026, with eligibility, deadlines and what each firm looks for."
+- "How to land a McKinsey Business Analyst offer as an undergrad: the timeline, the case prep that works, and the PEI."
+- "The 2026 consulting recruiting timeline for undergrads, firm by firm, with the dates for MBB, tier 2 and Big 4."
 
 ## Where to source claims
 

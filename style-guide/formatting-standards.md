@@ -2,13 +2,9 @@
 
 This document is the single source of truth for how every WSG .docx output must look. The current builder `scripts/markdown_to_docx_v2.py` enforces this, together with the August 2026 structure spec in `.claude-skill/formatting.md` (Title / Heading 2 / Normal styles; markdown H3s render as full-bold 11pt body paragraphs, so the H3 row below is v1-era). Manual edits in Word must match the same standard so files are visually consistent across the entire library.
 
-## Default byline
+## Byline (retired October 7, 2026)
 
-Every WSG article is ghostwritten for **Stephen Turban** (founder of WallStreetGuide.net) unless the brief or content calendar explicitly names a different writer.
-
-- Frontmatter must include `byline: stephen-turban`.
-- The writer profile lives at `writers/stephen-turban.md` and contains the approved voice templates and "what NOT to write" guardrails (no banker self-references).
-- Meta description must lead with "WSG founder Stephen Turban..." so the byline shows in SERP and OG cards.
+Articles carry no byline and no author voice. No `byline:` in the frontmatter; the meta description leads with the topic and says what the article covers.
 
 ## Font
 

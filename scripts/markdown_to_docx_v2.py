@@ -16,6 +16,12 @@ Structure (wsg-article skill, formatting.md module; August 2026 spec):
   (the "Say this, don't say that" question / Don't say / Say triplets).
 - Heading text is never bolded by hand: the Title and Heading 2 styles carry the weight.
 - Empty headings are dropped. Numbered lists restart at 1 for each new list.
+- Markdown pipe tables become Word tables (Table Grid, Arial 10pt black, bold header row,
+  single-spaced cells). Added September 2026.
+- Images: a line of the form ![alt text](path/to/image.png "Caption") becomes a centered picture
+  (max 6.5 inches wide, the printable width) followed by an italic caption paragraph. The path is
+  resolved relative to the repo root, then the markdown file's folder. A missing file inserts a
+  bracketed placeholder instead of failing the build. Added October 2026 (wsg-article images module).
 
 Visuals (style-guide/formatting-standards.md, locked May 24 spec): Arial throughout;
 Title 24pt bold black; Heading 2 18pt bold black; body, bullets and numbered lists 11pt black;
@@ -29,7 +35,7 @@ import sys
 
 import docx
 from docx import Document
-from docx.enum.text import WD_LINE_SPACING
+from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
@@ -45,6 +51,11 @@ PAGE_WIDTH_IN = 8.5
 PAGE_HEIGHT_IN = 11
 MARGIN_IN = 1.0
 
+# "*Source: ...*" or "*Photo: ...*" on its own line right after an image (October 7, 2026 rule):
+# rendered centered, small and italic, tight under the caption.
+SOURCE_RE = re.compile(r'^\s*\*((?:Source|Photo|Sources):\s.+?)\*\s*$')
+IMAGE_RE = re.compile(r'^\s*!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)\s*$')
+MAX_IMAGE_WIDTH_IN = PAGE_WIDTH_IN - 2 * MARGIN_IN
 BULLET_RE = re.compile(r"^\s*[-*+] +")
 NUMBER_RE = re.compile(r"^\s*\d+[.)] +")
 TOKEN = re.compile(
@@ -210,7 +221,13 @@ def _apply_num_id(paragraph, num_id):
 
 # ---------------------------------------------------------------- blocks
 
+TABLE_RE = re.compile(r"^\s*\|.*\|\s*$")
+TABLE_SEP_RE = re.compile(r"^\s*\|?\s*:?-{2,}:?\s*(\|\s*:?-{2,}:?\s*)*\|?\s*$")
+
+
 def classify(line):
+    if TABLE_RE.match(line):
+        return "table"
     if BULLET_RE.match(line):
         return "bullet"
     if NUMBER_RE.match(line):
@@ -258,8 +275,39 @@ class Builder:
         self.started = True
         self.last = "heading"
 
+    def table(self, lines):
+        """Markdown pipe table -> Word table. Arial 10pt black, bold header row, single-spaced cells."""
+        rows = []
+        for line in lines:
+            if TABLE_SEP_RE.match(line):
+                continue
+            cells = [c.strip() for c in line.strip().strip("|").split("|")]
+            rows.append(cells)
+        if not rows:
+            return
+        ncols = max(len(r) for r in rows)
+        table = self.doc.add_table(rows=len(rows), cols=ncols)
+        table.style = "Table Grid"
+        for ri, row in enumerate(rows):
+            for ci in range(ncols):
+                cell = table.cell(ri, ci)
+                cell.text = ""
+                p = cell.paragraphs[0]
+                p.paragraph_format.line_spacing_rule = WD_LINE_SPACING.SINGLE
+                p.paragraph_format.space_before = Pt(2)
+                p.paragraph_format.space_after = Pt(2)
+                add_inline(p, row[ci] if ci < len(row) else "", bold=(ri == 0))
+                for run in p.runs:
+                    run.font.size = Pt(BODY_PT - 1)
+                    run.font.color.rgb = BLACK
+
     def body_group(self, kind, lines):
         self.empty()
+        if kind == "table":
+            self.table(lines)
+            self.started = True
+            self.last = "body"
+            return
         if kind == "bullet":
             for line in lines:
                 p = self.doc.add_paragraph(style="List Bullet")
@@ -274,6 +322,58 @@ class Builder:
             for line in lines:
                 p = self.doc.add_paragraph(style="Normal")
                 add_inline(p, line.strip())
+        self.started = True
+        self.last = "body"
+
+    def image(self, alt, path, caption, md_dir):
+        """![alt](path "caption") -> centered picture (max printable width) plus an italic caption."""
+        import os
+        from docx.enum.text import WD_ALIGN_PARAGRAPH
+        self.empty()
+        candidates = [path, os.path.join(md_dir, path)]
+        found = next((c for c in candidates if os.path.isfile(c)), None)
+        if found is None:
+            print(f"  WARNING: image not found, placeholder inserted: {path}", file=sys.stderr)
+            p = self.doc.add_paragraph(style="Normal")
+            add_inline(p, f"[Image: {alt or caption or path}]", italic=True)
+        else:
+            p = self.doc.add_paragraph(style="Normal")
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.paragraph_format.line_spacing_rule = WD_LINE_SPACING.SINGLE
+            run = p.add_run()
+            run.add_picture(found, width=Inches(MAX_IMAGE_WIDTH_IN))
+            # add_picture scales by width; shrink narrow images back to their natural size (max 200 dpi)
+            try:
+                from PIL import Image as _Image
+                with _Image.open(found) as im:
+                    natural_in = im.width / 200.0
+                if natural_in < MAX_IMAGE_WIDTH_IN:
+                    shape = p.runs[-1]._element.xpath(".//wp:extent")[0]
+                    ratio = natural_in / MAX_IMAGE_WIDTH_IN
+                    shape.set("cx", str(int(int(shape.get("cx")) * ratio)))
+                    shape.set("cy", str(int(int(shape.get("cy")) * ratio)))
+                    ext2 = p.runs[-1]._element.xpath(".//a:ext")
+                    for e in ext2:
+                        e.set("cx", str(int(int(e.get("cx")) * ratio)))
+                        e.set("cy", str(int(int(e.get("cy")) * ratio)))
+            except Exception:
+                pass
+        if caption:
+            c = self.doc.add_paragraph(style="Normal")
+            c.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            add_inline(c, caption, italic=True)
+            for run in c.runs:
+                run.font.size = Pt(BODY_PT - 1)
+        self.started = True
+        self.last = "body"
+
+    def source_line(self, text):
+        """Image source line: centered, italic, two points under body size, no blank line above."""
+        p = self.doc.add_paragraph(style="Normal")
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        add_inline(p, text, italic=True)
+        for run in p.runs:
+            run.font.size = Pt(BODY_PT - 2)
         self.started = True
         self.last = "body"
 
@@ -304,6 +404,8 @@ def build(md_path, out_path):
 
     doc = setup_document()
     b = Builder(doc)
+    import os
+    md_dir = os.path.dirname(os.path.abspath(md_path))
 
     for block in re.split(r"\n\s*\n", body.strip()):
         lines = [re.sub(r"^\s*> ?", "", l).rstrip() for l in block.split("\n")]
@@ -321,6 +423,13 @@ def build(md_path, out_path):
             b.heading(h.group(2) or "", level)
             lines = lines[1:]
         if not lines:
+            continue
+        if len(lines) == 1 and IMAGE_RE.match(lines[0]):
+            m = IMAGE_RE.match(lines[0])
+            b.image(m.group(1), m.group(2), m.group(3) or "", md_dir)
+            continue
+        if len(lines) == 1 and SOURCE_RE.match(lines[0]) and b.last == "body":
+            b.source_line(SOURCE_RE.match(lines[0]).group(1))
             continue
         for kind, group in group_lines(lines):
             b.body_group(kind, group)

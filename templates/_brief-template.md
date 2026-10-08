@@ -49,7 +49,7 @@ If niche, sub-type:
 -
 -
 
-## Hooks / angles you want to land
+## Angles you want to land (in the body; intros stay plain)
 {Anything contrarian, opinionated, or surprising you want the article to argue. This shapes the H1 sections in ultimate guides.}
 
 -

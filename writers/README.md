@@ -1,3 +1,5 @@
+> **October 7, 2026:** bylines and author voice are retired. Articles are written as WSG in "we" and "you." These profiles are kept for history.
+
 # Writers
 
 One Markdown file per WSG contributor. The generator loads the matching profile when an article is assigned to a specific byline, then writes in that writer's actual voice using their real background instead of the generic "IB analyst" persona.

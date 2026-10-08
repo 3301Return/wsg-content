@@ -76,7 +76,7 @@ Input, with no styling and no paragraph spacing:
 
 ```
 Private Credit Salary 2026: Full Breakdown
-Meta description: WSG founder Stephen Turban breaks down private credit salary in 2026.
+Meta description: Private credit salary in 2026, broken down by role, firm type and year.
 Private credit pays banking-level compensation on roughly two-thirds of banking's hours.
 A first-year analyst at a top private credit platform earns $180,000 to $250,000 all-in.
 How much does a private credit analyst make in 2026?
@@ -87,7 +87,7 @@ Output:
 
 ```
 [Title]     Private Credit Salary 2026: Full Breakdown
-[Normal]    **Meta description:** WSG founder Stephen Turban breaks down private credit salary in 2026.
+[Normal]    **Meta description:** Private credit salary in 2026, broken down by role, firm type and year.
 [Normal]    (empty)
 [Normal]    Private credit pays banking-level compensation on roughly two-thirds of banking's hours.
 [Normal]    (empty)
