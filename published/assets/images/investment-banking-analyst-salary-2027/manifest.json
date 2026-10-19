@@ -1,0 +1,58 @@
+[
+  {
+    "file": "01-first-year-base-by-tier.png",
+    "alt": "Horizontal bar chart of first-year analyst base salary by bank tier with the bonus range shown beside each base",
+    "caption": "Base is fixed by tier, from $90,000 at a regional boutique to $120,000 at an elite boutique, and the orange bonus range is where two analysts on the same base end up $55,000 apart.",
+    "method": "Chart from the section 2 tier table (first-year base, first-year bonus range, first-year all-in range)",
+    "anchor": "| Regional boutique | $90,000 | $100,000 | $110,000 | $15,00"
+  },
+  {
+    "file": "02-federal-bracket-math.png",
+    "alt": "Excel screenshot of the federal income tax bracket math and payroll taxes for a 200,000 dollar New York analyst",
+    "caption": "Only the first four brackets touch $183,900 of taxable income, so the three rows above them show a dash, and the slices add to $36,734 before Social Security and Medicare take another $14,339.",
+    "method": "Workbook scripts/images/models/analyst-takehome.xlsx, sheet Take-home, range B5:H30 (live MIN and MAX slice formulas)",
+    "anchor": "| Total federal income tax |  | $183,900 | $36,734 |"
+  },
+  {
+    "file": "03-new-york-state-and-city-tax.png",
+    "alt": "Excel screenshot of the New York State flat rate, the city bracket table and the take-home block",
+    "caption": "The schedule would charge $10,760, but worksheet 7 taxes all $192,000 at a flat 5.9 percent for $11,328, the city adds $7,317 on its four slices, and the sheet lands on the same $130,282.",
+    "method": "Workbook scripts/images/models/analyst-takehome.xlsx, sheet Take-home, range B32:H56 (the schedule figure links from the NY schedule sheet)",
+    "anchor": "| Total NYC tax |  | $192,000 | $7,317 |"
+  },
+  {
+    "file": "04-gross-to-net-new-york.png",
+    "alt": "Waterfall chart from 200,000 dollars of gross pay through federal, payroll, state and city taxes to 130,282 of take-home",
+    "caption": "Federal income tax is the biggest bar at 18.4 percent of gross, and the two New York bars together are the $18,645 that a Houston analyst never pays.",
+    "method": "Chart from the section 4 gross-to-net table (federal $36,734, Social Security and Medicare $14,339, New York State $11,328, New York City $7,317, take-home $130,282)",
+    "anchor": "| Take-home per month | $10,857 |"
+  },
+  {
+    "file": "05-same-pay-four-cities.png",
+    "alt": "Stacked horizontal bars splitting 200,000 dollars of pay into take-home and taxes in Houston, Charlotte, San Francisco and New York",
+    "caption": "The gray federal block is identical in all four cities, so every dollar of difference sits in the orange and green state and city segments on the right.",
+    "method": "Chart from the section 7 four-city table (federal, Social Security and Medicare, state, city, state disability insurance, take-home, gap versus New York)",
+    "anchor": "| Gap versus New York (a year) | $0 | $11,174 | $18,645 | $1"
+  },
+  {
+    "file": "06-bonus-withheld-vs-actual-tax.png",
+    "alt": "Paired bar chart of what payroll withholds from an 80,000 dollar bonus against the tax it actually adds, by line",
+    "caption": "Federal is under-withheld because 22 percent is less than the 24 percent bracket, New York State is over-withheld by almost half, and the net $3,908 comes back as a refund.",
+    "method": "Chart from the section 6 withholding table (withheld $17,600, $4,960, $1,160, $9,360, $3,400; actual $19,164, $3,999, $1,160, $5,148, $3,101)",
+    "anchor": "| Bonus you keep | $43,520 | $47,428 |"
+  },
+  {
+    "file": "07-gross-vs-take-home-by-year.png",
+    "alt": "Grouped bar chart of all-in pay against take-home for first, second and third-year analysts and a first-year associate",
+    "caption": "Each $40,000 step in gross pay becomes $24,708, then $20,332, then $15,781 of take-home, because every raise lands in higher brackets and New York phases out its lower rates as you climb.",
+    "method": "Chart from the section 9 pay-by-year table (all-in $185,000 to $295,000, take-home $120,566 to $181,386, effective rates 34.8 to 38.5 percent)",
+    "anchor": "| First-year associate (direct promote) | $175,000 | $120,00"
+  },
+  {
+    "file": "08-monthly-budget-three-ways.png",
+    "alt": "Stacked bar chart splitting a 10,114 dollar monthly take-home into rent, food, other costs and savings for three living setups",
+    "caption": "Rent is the only line that moves the savings number by more than a few hundred dollars, and switching from a shared apartment to a studio costs $1,350 a month of it.",
+    "method": "Chart from the section 8 budget table (take-home $10,114; rent, utilities, transit, groceries, going out, insurance and flights by column; left over $5,912, $4,862 and $3,512)",
+    "anchor": "| Saved in a year (cash only) | $70,939 | $58,339 | $42,139 "
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "file": "01-bcg-interview-funnel.png",
+    "alt": "Funnel diagram of BCG's process: application, CCA, online case, first round, final round, with timing notes",
+    "caption": "Two automated screens run before anyone at BCG reads your file closely, and the online case score you post is the one the firm keeps.",
+    "method": "Funnel drawn in matplotlib from the five-row process table in section 1",
+    "anchor": "| Final round | Two or three interviews with principals and "
+  },
+  {
+    "file": "02-contribution-per-order-by-channel.png",
+    "alt": "Grouped bar chart of contribution per pizza order by channel for two years ago and last year",
+    "caption": "Contribution per order held at $8 in store and $9 on the chain's own app while the third-party channel that grew earns $5.20.",
+    "method": "Chart from the section 5 exhibit and the Step two contribution per order calculations",
+    "anchor": "- Third-party apps, two years ago: 30 percent of $25 is $7.5"
+  },
+  {
+    "file": "03-contribution-bridge.png",
+    "alt": "Waterfall chart bridging contribution from $236 million two years ago to $224.6 million last year",
+    "caption": "Orders moved from the counter to third-party apps, and the bridge from $236 million to $224.6 million shows the margin leaving with them.",
+    "method": "Waterfall from the Step three totals and the Step five bridge figures in section 5",
+    "anchor": "**Step five: a bridge, if the interviewer wants precision.**"
+  },
+  {
+    "file": "04-hypothesis-so-what-loop.png",
+    "alt": "Flow diagram of the hypothesis loop: state, ask for data, do the math, say the so what, update, recommend",
+    "caption": "Every number you compute goes through step four before you move, and a killed hypothesis sends you back to the top with a new one.",
+    "method": "Diagram drawn in matplotlib from the five-step cycle in section 4",
+    "anchor": "5. **Update.** Either \"that confirms it, so the next questio"
+  },
+  {
+    "file": "05-summer-2028-calendar.png",
+    "alt": "Timeline from October 2026 to September 2027 with BCG's expected Summer Associate, Launch, Embark and GFL windows",
+    "caption": "Nothing on BCG's 2027 calendar is posted yet, so plan around a late spring Summer Associate deadline and treat Launch and Embark as useful extras.",
+    "method": "Timeline drawn in matplotlib from the section 9 calendar table; every window carries a [VERIFY] tag in the draft and is shown as expected",
+    "anchor": "| Full-time Associate, start 2029 | Students graduating 2029"
+  }
+]

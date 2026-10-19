@@ -1,0 +1,56 @@
+[
+  {
+    "file": "01-first-year-cash-by-firm.png",
+    "alt": "Stacked horizontal bars of 2026 first-year base, maximum bonus and signing bonus at McKinsey, BCG and Bain",
+    "caption": "Best-case first-year cash is $135,000 at McKinsey, $137,000 at BCG and $139,500 at Bain.",
+    "source": "Source: Management Consulted, 2026 consulting salary report, 2026.",
+    "method": "Chart from the undergrad side-by-side table in the draft (base salary, performance bonus cap, signing bonus); the three segments are asserted to add to the table's best-case total row",
+    "anchor": "| Total cash, best case | $135,000 | $137,000 | $139,500 |",
+    "regenerate_at_publish": true
+  },
+  {
+    "file": "02-pay-ladder-by-level.png",
+    "alt": "Range chart of total cash at four levels from analyst to junior partner at McKinsey, BCG and Bain",
+    "caption": "Total cash goes from $130,000 to $140,000 at the analyst level to $210,000 to $285,000 at the post-MBA level.",
+    "source": "Source: Management Consulted, 2026 consulting salary report, 2026; Hacking the Case Interview, firm salary pages, June 2026; StrategyCase, MBB salaries, August 2026.",
+    "method": "Chart from the pay ladder table in the draft (total cash ranges by level and firm); the partner row is quoted in a note under the chart because its upper end would flatten the other four levels",
+    "anchor": "| Partner (11+) | $700,000 to $1.5 million+ | $700,000 to $2",
+    "regenerate_at_publish": true
+  },
+  {
+    "file": "03-mbb-vs-investment-banking.png",
+    "alt": "Range bars of MBB and investment banking total cash in year one and year three, with per-hour pay",
+    "caption": "Banking pays $35,000 to $85,000 more than MBB in year one and $50,000 to $95,000 more in year three.",
+    "source": "Source: Management Consulted, 2026 consulting salary report, 2026; Mergers & Inquisitions, 2026 investment banker salary report, 2026.",
+    "method": "Chart from the MBB vs investment banking table in the draft (total cash ranges and the gap column, which is asserted to equal the difference of the ranges); the per-hour line is parsed from the hours paragraph and its arithmetic rechecked",
+    "anchor": "| Year three | $150,000 to $175,000 | $200,000 to $270,000 |",
+    "regenerate_at_publish": true
+  },
+  {
+    "file": "04-mbb-vs-tier-2-base-and-bonus.png",
+    "alt": "Two bar panels of 2026 undergraduate base salary and bonus cap at MBB and seven other strategy firms",
+    "caption": "Tier 2 and Big 4 strategy bases run $95,000 to $110,000 against $110,000 to $112,000 at MBB.",
+    "source": "Source: Management Consulted, 2026 consulting salary report, 2026.",
+    "method": "Chart from the tier 2 and Big 4 table in the draft (base and performance bonus cap columns; range cells drawn to their upper end and labeled with the range; profit-sharing notes kept in the labels)",
+    "anchor": "| McKinsey, BCG, Bain | $110,000 to $112,000 | $18,000 to $2",
+    "regenerate_at_publish": true
+  },
+  {
+    "file": "05-federal-bracket-math.png",
+    "alt": "Table of 2026 federal tax brackets applied to 107,900 dollars of taxable income, four slices and a total",
+    "caption": "The four slices add to $18,494 of federal income tax on $124,000 of gross pay.",
+    "source": "Source: IRS Revenue Procedure 2025-32, 2026 tax year.",
+    "method": "Table graphic from the federal bracket table in the draft (slice, rate, dollars in slice, tax); each slice's tax is asserted to equal dollars times rate and the slices to add to the total row",
+    "anchor": "| $0 to $12,400 | 10% | $12,400 | $1,240 |",
+    "regenerate_at_publish": true
+  },
+  {
+    "file": "06-new-york-take-home.png",
+    "alt": "Waterfall chart from 124,000 dollars of gross pay through five taxes to 85,187 dollars of take-home in New York",
+    "caption": "Taxes take $38,813 of the $124,000, leaving $85,187 a year, or $7,099 a month.",
+    "source": "Source: IRS Revenue Procedure 2025-32 and New York Form IT-2105-I, 2026 tax year.",
+    "method": "Waterfall from the gross-to-net table in the draft (gross pay, the five tax lines, take-home, take-home per month and share of gross); the taxes are asserted to add to the total and gross less taxes to equal take-home",
+    "anchor": "| Gross pay | $124,000 |",
+    "regenerate_at_publish": true
+  }
+]

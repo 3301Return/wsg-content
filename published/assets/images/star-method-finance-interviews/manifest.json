@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-star-time-split.png",
+    "alt": "Bar chart splitting a 90-second STAR answer: Situation 18 seconds, Task 9, Action 54, Result 9.",
+    "caption": "The Action gets 60 percent of the answer, about 54 seconds of 90.",
+    "source": "MIT Career Advising and Professional Development, The STAR Method for Behavioral Interviews; seconds are WSG's arithmetic on a 90-second answer",
+    "method": "Horizontal bars drawn from the MIT 20/10/60/10 split quoted in the draft; seconds are the split applied to the draft's 90-second answer",
+    "anchor": "Here's what each part is for, and about how long it gets in "
+  },
+  {
+    "file": "04-star-answer-marked-up.png",
+    "alt": "The first worked answer with its Situation, Task, Action and Result marked and word counts per part.",
+    "caption": "The Action runs 84 of the answer's 183 words, the Situation 38.",
+    "source": "WSG analysis of the worked example in this article",
+    "method": "Text graphic of worked answer 1 copied verbatim from the draft, split at the Task, Action and Result sentences; word counts computed in the script",
+    "anchor": "\"Last spring I was one of four analysts on a pitch team at m"
+  },
+  {
+    "file": "05-hirevue-clock.png",
+    "alt": "Four-step sequence of a HireVue question: question appears, 30 seconds to prepare, record up to two minutes, submit.",
+    "caption": "Each question gives about 30 seconds to prepare and up to two minutes to record.",
+    "source": "IGotAnOffer and Mergers & Inquisitions HireVue interview guides, 2026",
+    "method": "Sequence diagram drawn from the HireVue settings in section 4 of the draft (30 seconds of prep, a two-minute cutoff, 150 words in about 90 seconds, submit on click or at the cutoff)",
+    "anchor": "At Goldman Sachs and JPMorgan, the first round is a recorded"
+  }
+]

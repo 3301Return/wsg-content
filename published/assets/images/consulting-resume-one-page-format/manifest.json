@@ -1,0 +1,23 @@
+[
+  {
+    "file": "01-mbb-screen-four-scores.png",
+    "alt": "Diagram of the consulting resume screen: a fast first pass, then four ordered scores for academics, leadership, impact and distinctiveness.",
+    "caption": "Academics get read first and the distinctive line last, so the top third of your page has to carry the first two scores on its own.",
+    "method": "Matplotlib text diagram from the article's section on how the MBB screen scores a page (scripts/images/build_consulting-resume-one-page-format.py).",
+    "anchor": "**4. Something distinctive comes last, and it's what gets yo"
+  },
+  {
+    "file": "02-alex-doe-page-callouts.png",
+    "alt": "Alex Doe sample resume with five numbered callouts on academics, the job title, first bullet, Leadership section and Additional Information.",
+    "caption": "Run the screen on Alex's page: the fast pass sees a 3.82 and a strategy firm title, and the slower read finds a number at the end of every bullet.",
+    "method": "Page 1 of published/assets/Sample Consulting Resume - Junior (Alex Doe).pdf rendered with pdftoppm at 150 dpi; callouts drawn with Pillow from pdfplumber line positions (scripts/images/resume_callouts.py).",
+    "anchor": "That's the whole page. Eleven bullets across Experience and "
+  },
+  {
+    "file": "03-sam-doe-page-callouts.png",
+    "alt": "Sam Doe sample sophomore resume with five numbered callouts on academics, research job, family business, elected role and case competition.",
+    "caption": "Not one bullet on Sam's page says consulting, and it still passes, because every box holds a number that moved.",
+    "method": "Page 1 of published/assets/Sample Consulting Resume - Sophomore (Sam Doe).pdf rendered with pdftoppm at 150 dpi; callouts drawn with Pillow from pdfplumber line positions (scripts/images/resume_callouts.py).",
+    "anchor": "Nine bullets, one page, and not one of them says \"consulting"
+  }
+]

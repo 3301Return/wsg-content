@@ -104,3 +104,72 @@ The July pass left the meta description, FAQ, template, mistakes-list content, a
 2. In `.claude-skill/SKILL.md`, under "Editorial rules from the May 2026 review (mandatory)," add: "Also read `style-guide/editorial-feedback-july-2026.md` (prose-level edit rules: echo enders, burstiness, perplexity). These apply to every draft and every revision pass."
 3. In `.claude-skill/consulting.md`, add the same file to the mandatory reading list after `style-guide/editorial-feedback-may-2026.md`.
 4. Optional, later: add warnings-only checks to `check_style.py` for the grep patterns above (dash detection, echo-opener detection, paragraph-length variance). Warnings, not hard fails. Echo detection needs human judgment per rule 1, and a hard fail would push writers to game the detector instead of reading their own sections.
+
+
+## 17. Stay in the article's own field (October 12, 2026)
+
+Sanskar's flag on the consulting resume draft: it opened its skeleton by comparing consulting resumes with banking resumes, and a later paragraph said "students treat a consulting resume as a banking resume with the order changed." His note: "a bug in the system where a lot of consulting banking becomes interlinked... deflecting the point into banking resume opposed to explaining what is actually the issue."
+
+A consulting article explains consulting. A banking article explains banking. Don't explain one by contrasting it with the other ("unlike banking," "a banker would," "the banking version of this"). Explain the thing directly.
+
+A comparison belongs in an article only when the reader is choosing between the two (salary, hours, "consulting vs banking"), and then once, in its own clearly labeled section or sub-question, kept short. Nowhere else.
+
+## 18. No history or trivia the reader can't act on (October 12, 2026)
+
+Flagged: a consulting resume paragraph built on Leonardo da Vinci's 1482 letter to Ludovico Sforza as "the earliest known resume." Reaction: "🤢."
+
+Cut founding dates, reorganization timelines, who coined a term and when, "the earliest known," famous-person anecdotes, and firm-level revenue and headcount in articles about a junior role. **The test:** if a student deleted the sentence, would they do anything differently? If not, it goes. A one-clause attribution ("the pyramid principle, from Barbara Minto's book") is fine. A biography isn't.
+
+## 19. Say what to do, not why the firm does it (October 12, 2026)
+
+Flagged: a section that opened "Start on the firm's side of the table. McKinsey receives roughly 1 million resumes annually... The resume screen exists to get the stack down to the people worth 45 minutes of a consultant's time." Sanskar: "the student doesn't need the 'why' behind resume screenings."
+
+Cut firm-side setups ("start on the firm's side," "the screen exists to," "the firm is trying to," "to understand X you have to understand why firms...") and application-volume statistics used to justify a process. Give the student the what and the how. Keep a "why" only when it changes what the student does, and then as one clause attached to the instruction ("Put GPA on its own line, because the screener checks it first").
+
+This narrows the older "lead with the company's perspective" rule (SKILL.md editorial rule 4), which was being over-applied.
+
+## 20. Judge every section against the headline (October 12, 2026)
+
+The founder's note on the same batch: "the process just seems like it's following instructions too much without using its own intelligence." Templates, briefs and outlines list sections that might help. They're not a checklist.
+
+Before delivering, give every H2 a verdict: keep, cut, shrink or rewrite. **The question:** does a student reading this headline need this section to do what the headline promises? Background sections, "how this differs from X" sections, tables that repeat the prose, and closers that recap all fail it. Cut them or fold their one useful fact into a section that passes. Shorter is fine when the topic is covered; never pad back to the length target.
+
+
+## 21. Conversational, not absolute (October 14, 2026)
+
+The founder: "The writing is still a little AI-y and absolute in places. Things like 'five stories cover every behavioural question' or making very definite statements about how recruiters score candidates aren't really the tone we're going for, and aren't necessarily true in every case... Whenever it sounds like a Nat Geo narrator, that's an issue."
+
+Recruiting varies by firm, office, team, interviewer and year. Write like someone who knows the field talking to a student: "usually," "often," "most firms," "some banks," "in most first rounds," "a common approach is." Use a qualifier where it's true, not on every sentence; a plain fact ("Goldman's first round is a HireVue") stays plain.
+
+| Cut this | Write this |
+| --- | --- |
+| "Five stories cover every behavioral question." | "Five stories usually cover most of what you'll be asked." |
+| "The interviewer is scoring Partnership." | "A Goldman interviewer will often be listening for teamwork." |
+| "Banks score your answers against a rubric." | "Many banks use a set list of qualities when they review answers." |
+| "That's the format at the banks." | "That's how most large banks run it." |
+| "Every one of the six fixes can be run in ten minutes." | "Most of these fixes take a few minutes on a written story." |
+
+Narrator voice is a sentence that pronounces on how the world works from above: sweeping, certain, slightly dramatic. "The structure has to be automatic by the time the question appears." "A smaller true story beats a bigger invented one." "This is how influence works inside a bank." Say it as advice instead: "It helps to have the structure down before the first question." Bolded sentences follow the same rule.
+
+## 22. Say each point once, and teach the doing, not the system (October 14, 2026)
+
+The founder on the STAR draft: "we've spent so much time explaining how banks score interviews, the research behind structured interviews... does a student really need all of that to learn how to give a better STAR answer?" And: "eight full sample answers, explanations after each, a table mapping 19 questions, and then another 'say this, don't say that' section... the student should get the meat of it quicker."
+
+Two failures, one fix each:
+
+- **Explaining the system.** How firms score, what the research says, why a method exists, how a process works behind the scenes. If the reader's goal is to do something (give an answer, apply, pass a test), the system gets two lines at most. The words go to the doing.
+- **Repeating a point in several formats.** An example, then an explanation of the example, then a table, then a say/don't block, all landing the same lesson. Pick the one format that teaches it fastest. Three or four sample answers that each show something different beat eight that show the same shape. A short note after an example is fine only when it adds what the example doesn't show.
+
+Also: no two sections with the same purpose. If section 1 explains why the Action matters and section 6 has a mistake about the Action, merge them.
+
+## 23. Match the reader's level (October 14, 2026)
+
+The founder: "The Accenture article goes into Managing Director salaries; for someone looking at an entry-level Analyst role, I don't think all of that is necessary."
+
+Cover the reader's seat in detail. Anything above or beside it gets a line: "Consultants (two to three years in) earn about $X; pay rises from there." A full pay ladder, a senior career path or partner economics belongs in an article about those roles.
+
+## 24. Keep examples in proportion (October 14, 2026)
+
+The founder: "multiple pages going across the kitchen cabinet case doesn't make sense as this isn't the interview or how-to-break-in guide; we can keep it sure, but like 1 page."
+
+A worked example illustrates the section it sits in. In a career or role guide, a practice case or sample answer runs about a page. In an article whose whole question is that example (a case interview guide, a sample-answers article), it can run longer. Size the example to the article's question, not to how much there is to say about it.

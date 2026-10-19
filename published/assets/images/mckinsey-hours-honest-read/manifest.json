@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-hours-by-weekday.png",
+    "alt": "Bar chart of McKinsey work hours by weekday, from 12 to 14 on Monday to 0 to 2 on weekends",
+    "caption": "Monday through Wednesday run 12 to 14 hours each, Thursday 10 to 12 and Friday 6 to 8.",
+    "source": "Source: Hacking the Case Interview, consulting hours per week, May 2026, and StrategyCase, July 2026",
+    "method": "Bar chart from the day-by-day table in section 1 (midpoint of each range plotted, range in the label)",
+    "anchor": "| Saturday and Sunday | Off | 0 to 2 | An hour or two of Sun",
+    "regenerate_at_publish": false
+  },
+  {
+    "file": "02-staffed-vs-between-studies.png",
+    "alt": "Bar chart of hours a week in a staffed week, a week between studies and the average over 48 weeks",
+    "caption": "Forty-four weeks at 65 hours and four weeks at 42 average 63 hours a week.",
+    "source": "Source: Hacking the Case Interview, consulting hours per week, May 2026, and StrategyCase, July 2026",
+    "method": "Bar chart from the staffed and between-studies example in section 3 (44 weeks at 65, 4 weeks at 42, average 63)",
+    "anchor": "The 60-hour figure is an average across staffed and unstaff",
+    "regenerate_at_publish": false
+  },
+  {
+    "file": "03-on-site-days.png",
+    "alt": "Diagram of two McKinsey weeks: four days at the client site against two or three, with travel hours",
+    "caption": "A four-day on-site week adds 6 to 10 hours of travel on top of work hours.",
+    "source": "Source: Hacking the Case Interview, consulting hours per week, May 2026, and StrategyCase, July 2026",
+    "method": "Diagram drawn in matplotlib from the travel pattern and the 6 to 10 travel hours in section 4",
+    "anchor": "Hacking the Case Interview's May 2026 pages say teams \"now s",
+    "regenerate_at_publish": false
+  }
+]

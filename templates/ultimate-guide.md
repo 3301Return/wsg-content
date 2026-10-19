@@ -2,7 +2,7 @@
 
 **Use when:** Insight-led guides on a major topic. The reader leaves with a clear picture and a process to follow.
 **Examples:** "How Hard Is It to Get Into Investment Banking? 6 Things That Actually Matter" · "How to Beat McKinsey Solve: A Step-by-Step Guide"
-**Length target:** about 5,000 to 6,000 words (about 20 to 25 pages in the built .docx before images). Shorter is fine when the topic is covered. Longer only when the topic truly needs it; say why in the Thoroughness Report.
+**Length (October 14, 2026):** length follows the question. Focused pieces about 2,500 to 3,500 words; in-depth guides up to about 5,000 to 6,000 (20 to 25 pages). Write the editorial plan in SKILL.md first; its budget is the target.
 **Required:** Direct-answer intro · 1-2 H2 sub-questions after the intro · 6-8 sections · conclusion with a next step
 
 ---

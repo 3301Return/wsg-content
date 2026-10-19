@@ -1,0 +1,20 @@
+[
+  {
+    "file": "03-recruiting-calendar.png",
+    "alt": "Timeline from October 2026 to fall 2028 of Accenture Strategy application, interviews, offers, internship and full-time start",
+    "caption": "Applications for the Summer 2027 internship close October 16, 2026.",
+    "source": "Source: Accenture careers postings, October 2026, and WSG analysis",
+    "method": "Timeline drawn in matplotlib from the four-step calendar and the interview-stage paragraph in the draft; windows tagged [VERIFY] there are shown as expected",
+    "anchor": "4. Start full time in fall 2028 as an Analyst.",
+    "regenerate_at_publish": true
+  },
+  {
+    "file": "04-case-issue-tree.png",
+    "alt": "Issue tree with a structural branch and an execution branch for the cabinet maker's lost market share",
+    "caption": "All $400 million of the market's growth came from ready-to-assemble cabinets, where the client has 5 percent share.",
+    "source": "Source: WSG analysis of the worked case in this article",
+    "method": "Tree drawn with wsg_diagrams.nested_tree from the issue-tree and segment paragraphs of the worked case in the draft; the segment arithmetic is recomputed and asserted in this script",
+    "anchor": "The interviewer tells you ready-to-assemble cabinets, the fl",
+    "regenerate_at_publish": false
+  }
+]

@@ -37,6 +37,8 @@ For career and exit articles: one plain fact, the reader's question, the short a
 
 Never open with what candidates expect, feel or get wrong.
 
+**Explain consulting directly (October 12, 2026).** Don't frame consulting through banking ("a consulting resume is a banking resume with the order changed," "unlike banking"). A consulting-vs-banking comparison appears only when the reader is choosing between the two (pay, hours), once, in its own short section. No firm history, no "from the firm's side of the table" setups (`prose-editing.md` rules 17 to 19).
+
 ## The consulting recruiting timeline (read this carefully)
 
 The undergrad consulting cycle is DIFFERENT from the IB cycle. Most WSG-reader confusion comes from this.
@@ -128,13 +130,10 @@ Same bullet structure as IB listicles: Website, Apply Link (if open), Deadline, 
 
 ## Length
 
-Same target as the main skill (October 8, 2026): about 20 to 25 pages in the built .docx before images.
+Same as the main skill (October 14, 2026): length follows the question. Firm, role, salary and assessment articles are usually focused pieces (about 2,500 to 3,500 words); a full case-interview or recruiting guide can run longer.
 
-- Ultimate guide: about 5,000 to 6,000 words
-- Listicle: about 4,500 to 6,000 words
-- Niche: about 4,500 to 5,500 words
 
-Case-interview and framework articles need room to walk a profitability tree or the arithmetic in a market-sizing case. Walk each case type once, fully, with one worked example; give variations in a sentence or two. A case walk-through that skips a step fails the thoroughness pass; a second walk-through of the same case type fails the length cut.
+Case-interview and framework articles need room to walk a profitability tree or the arithmetic in a market-sizing case. Walk each case type once, fully, with one worked example; give variations in a sentence or two. A case walk-through that skips a step fails the thoroughness pass; a second walk-through of the same case type fails the length cut. In a firm or career guide (not a case guide), one practice case runs about a page (prose-editing rule 24).
 
 ## Output
 

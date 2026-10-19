@@ -1,0 +1,100 @@
+[
+  {
+    "file": "01-six-links.png",
+    "alt": "Diagram of the six links between the income statement, cash flow statement and balance sheet with Lantern Bikes' numbers",
+    "caption": "Six rows, six links: net income and D&A start on the income statement, capex, debt and ending cash run from the cash flow statement to the balance sheet, and working capital runs the other way.",
+    "method": "diagram drawn with wsg_diagrams from the section 2 link paragraphs and the section 6 six links table",
+    "anchor": "**Link 6: the last line of the cash flow statement is the fi"
+  },
+  {
+    "file": "02-walk-order.png",
+    "alt": "Three boxes in a row showing the walk order from income statement to cash flow statement to balance sheet",
+    "caption": "The order is forced by the hand-offs: the income statement produces the 45 the cash flow statement starts from, and the cash flow statement produces the 36 the balance sheet needs.",
+    "method": "diagram drawn with wsg_diagrams from section 3 and the Lantern Bikes figures in section 6",
+    "anchor": "Start with the income statement because it produces net inco"
+  },
+  {
+    "file": "03-depreciation-walk.png",
+    "alt": "Spreadsheet of the ten dollar depreciation walk at 25 and 40 percent tax rates with formulas shown beside each row",
+    "caption": "The same walk in a sheet: taxes are pre-tax income times the rate, the add-back is the depreciation line, and cash lands at 2.5, which is 10 times 25 percent.",
+    "method": "workbook lantern-bikes.xlsx, sheet Depreciation walk, range B4:G28 (column G holds the 25 percent formula as text)",
+    "anchor": "| Balance check (assets minus liabilities and equity) | 0 | "
+  },
+  {
+    "file": "04-scenario-inventory-on-credit.png",
+    "alt": "Spreadsheet of the inventory bought on credit scenario where inventory and payables both rise by 10 and cash is unchanged",
+    "caption": "Two working capital lines that cancel: inventory up is cash out, payables up is cash in, so cash from operations is 0 and both sides of the balance sheet rise by 10.",
+    "method": "workbook lantern-bikes.xlsx, sheet Scenarios, range B17:F28 (column F holds each formula as text)",
+    "anchor": "| Cash flow statement: change in accounts payable (liability"
+  },
+  {
+    "file": "05-scenario-capex.png",
+    "alt": "Spreadsheet of the 100 of capex scenario with cash down 100, net PP&E up 100 and no income statement effect",
+    "caption": "Capex never visits the income statement in the year it is spent: the 100 leaves through investing and reappears as PP&E, so total assets do not move.",
+    "method": "workbook lantern-bikes.xlsx, sheet Scenarios, range B30:F40 (column F holds each formula as text)",
+    "anchor": "| Cash flow statement: capital expenditures (investing) | (1"
+  },
+  {
+    "file": "06-scenario-raise-debt.png",
+    "alt": "Spreadsheet of the raise 100 of debt scenario with a financing inflow, cash up 100 and long-term debt up 100",
+    "caption": "Borrowing is a financing line and a balance sheet line only: cash and debt both rise by 100, and the interest shows up on next year's income statement.",
+    "method": "workbook lantern-bikes.xlsx, sheet Scenarios, range B42:F52 (column F holds each formula as text)",
+    "anchor": "| Cash flow statement: debt issued (financing) | 100 |"
+  },
+  {
+    "file": "07-scenario-deferred-revenue.png",
+    "alt": "Spreadsheet of the 20 of deferred revenue scenario with cash up 20 and deferred revenue up 20 as a liability",
+    "caption": "A liability going up is a source of cash: the 20 arrives in operations before any revenue is booked, and it sits in deferred revenue until the work is done.",
+    "method": "workbook lantern-bikes.xlsx, sheet Scenarios, range B66:F76 (column F holds each formula as text)",
+    "anchor": "| Cash flow statement: change in deferred revenue (liability"
+  },
+  {
+    "file": "08-scenario-equipment-sale.png",
+    "alt": "Spreadsheet of the equipment sale scenario with the 10 gain backed out of operations and 40 of proceeds in investing",
+    "caption": "The trap in a sheet: net income is up 7.5, the 10 gain is backed out of operations, the full 40 of proceeds lands in investing, and cash ends up 37.5.",
+    "method": "workbook lantern-bikes.xlsx, sheet Scenarios, range B126:F144 (column F holds each formula as text)",
+    "anchor": "| Cash flow statement: proceeds from sale of equipment (inve"
+  },
+  {
+    "file": "09-lantern-income-statement.png",
+    "alt": "Spreadsheet of Lantern Bikes' Year 2 income statement from revenue of 500 down to net income of 45",
+    "caption": "The income statement in the sheet: costs are negative, every subtotal is a sum, and interest is 5 percent of the 200 of debt on the Year 1 balance sheet.",
+    "method": "workbook lantern-bikes.xlsx, sheet Lantern Bikes, rows 19 to 29 of columns B, E and G",
+    "anchor": "| Net income | 45 | Link 1: top of the CFS and into retained"
+  },
+  {
+    "file": "10-lantern-cash-flow-statement.png",
+    "alt": "Spreadsheet of Lantern Bikes' Year 2 cash flow statement from net income of 45 to ending cash of 36",
+    "caption": "Net income 45 at the top, the four working capital lines netting to minus 7, operations at 68, then capex, the debt repayment and the dividend, and ending cash of 36.",
+    "method": "workbook lantern-bikes.xlsx, sheet Lantern Bikes, rows 31 to 46 of columns B, E and G",
+    "anchor": "| Ending cash | 36 | Link 6: becomes cash on the Year 2 bala"
+  },
+  {
+    "file": "11-lantern-balance-sheet.png",
+    "alt": "Spreadsheet of Lantern Bikes' Year 1 and Year 2 balance sheet with a change column and a zero check row",
+    "caption": "Year 1 is typed in blue, every Year 2 line is a formula off the Year 1 balance and a cash flow line, and the check row reads 0 in both years.",
+    "method": "workbook lantern-bikes.xlsx, sheet Lantern Bikes, range B48:G62",
+    "anchor": "| Balance check (assets minus L+E) | 0 | 0 |  | Must be 0 |"
+  },
+  {
+    "file": "12-cash-bridge-year-2.png",
+    "alt": "Waterfall from beginning cash of 40 through net income, D&A, working capital, capex and financing to ending cash of 36",
+    "caption": "Read it left to right from the 40 Lantern Bikes started with: profit and the D&A add-back lift it to 115, then working capital, capex, the debt repayment and the dividend bring it down to 36.",
+    "method": "waterfall chart from the section 6 table 'Why Lantern Bikes' cash fell by 4 in a year it earned 45' plus the beginning cash of 40",
+    "anchor": "| Dividends | (12) | (4) |"
+  },
+  {
+    "file": "13-balance-check-closeup.png",
+    "alt": "Close-up of the balance check row in Excel: total assets minus total liabilities and equity, zero in both years",
+    "caption": "The check is one subtraction, total assets minus total liabilities and equity, and it reads 0 in both years because every link was carried through with its sign.",
+    "method": "workbook lantern-bikes.xlsx, sheet Lantern Bikes, rows 48, 53, 61 and 62 of columns B, D, E, F and I (rows between hidden)",
+    "anchor": "Now the balance check, which is the part interviewers watch."
+  },
+  {
+    "file": "14-formula-closeup-links.png",
+    "alt": "Excel close-up of the formulas linking net income into the cash flow statement and ending cash onto the balance sheet",
+    "caption": "What the links look like as formulas: net income on the cash flow statement is a reference to the income statement, cash on the balance sheet is a reference to ending cash, and retained earnings add net income and subtract the dividend.",
+    "method": "workbook lantern-bikes.xlsx, sheet Lantern Bikes, rows [19, 29, 31, 32, 44, 45, 46, 48, 49, 59, 62] of columns B, D, E and I (rows between hidden)",
+    "anchor": "If you want to build the same thing yourself, this is the ex"
+  }
+]

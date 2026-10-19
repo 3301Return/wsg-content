@@ -1,0 +1,42 @@
+[
+  {
+    "file": "01-capital-structure-recovery.png",
+    "alt": "Diagram of the capital structure from revolver to common equity with Moody's recovery rates for loans and bonds",
+    "caption": "First-lien loans recovered 65 cents on the dollar against 38 for senior unsecured bonds, on Moody's trading prices.",
+    "source": "Bermuda Monetary Authority, Moody's recovery rates for loans and bonds, September 2024",
+    "method": "Diagram drawn in matplotlib from the question 7 stack and the four Moody's recovery figures in the draft (65, 38, 71, 47 percent)",
+    "anchor": "The revolver and first-lien term loans have the first claim "
+  },
+  {
+    "file": "02-rating-scales.png",
+    "alt": "Table of Moody's and S&P rating symbols side by side with the investment grade line after Baa3 and BBB-",
+    "caption": "Investment grade ends at Baa3 on Moody's scale and BBB- on S&P's.",
+    "source": "Moody's and S&P Global Ratings, rating symbols and definitions, October 2026",
+    "method": "Table graphic drawn in matplotlib from the question 12 rating table in the draft",
+    "anchor": "Moody's rating symbols document says Baa obligations are \"su"
+  },
+  {
+    "file": "03-covenant-cushion.png",
+    "alt": "Bar chart of EBITDA today against the lowest EBITDA that passes the leverage and interest coverage covenants",
+    "caption": "EBITDA can fall $16.7 before the 6.0x leverage test breaks and $40.0 before the 2.0x coverage test breaks.",
+    "source": "WSG analysis of the worked example in this article",
+    "method": "Bar chart drawn in matplotlib from the question 6 cushion table in the draft ($100 today, $83.3 and $60.0 at the limits)",
+    "anchor": "The leverage covenant binds first. If EBITDA falls 17 percen"
+  },
+  {
+    "file": "04-loan-vs-bond.png",
+    "alt": "Table comparing a leveraged loan and a high-yield bond on interest, security, repayment, call protection, covenants and buyers",
+    "caption": "A leveraged loan floats, is secured and amortizes; a high-yield bond is fixed-rate, usually unsecured and repaid at maturity.",
+    "source": "WSG summary of PitchBook LCD's leveraged loan primer and Ashurst's loan and bond comparison, October 2026",
+    "method": "Table graphic drawn in matplotlib from the question 15 comparison table in the draft",
+    "anchor": "A floating rate means the lender earns more when SOFR rises,"
+  },
+  {
+    "file": "05-downside-case.png",
+    "alt": "Table of the base case and the 30 percent EBITDA downside with cash flow, FCCR and leverage",
+    "caption": "FCCR falls from 1.60x to 1.12x and leverage rises from 5.0x to 7.1x when EBITDA drops 30 percent.",
+    "source": "WSG analysis of the worked example in this article",
+    "method": "Table graphic drawn in matplotlib from the question 20 downside table in the draft",
+    "anchor": "In the base case the borrower covers its fixed charges 1.6 t"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "file": "01-fit-minutes-by-firm.png",
+    "alt": "Horizontal bar chart of fit interview minutes per first-round interview at McKinsey, BCG, Bain, Oliver Wyman and L.E.K.",
+    "caption": "McKinsey gives fit 10 to 20 minutes per first-round interview; L.E.K. gives it 5 to 10.",
+    "source": "Source: Hacking the Case Interview, CaseCoach, PrepLounge and StrategyCase interview guides, October 2026.",
+    "method": "Bars from the 'How long' column of the format table in the draft (McKinsey 10 to 20, BCG 10 to 15, Bain 10 to 15 where it runs, Oliver Wyman about 15, L.E.K. 5 to 10); navy to the low end, light blue to the high end; Kearney is not fixed and is left out",
+    "anchor": "| L.E.K. | Behavioral discussion | Start or end of each case",
+    "regenerate_at_publish": true
+  },
+  {
+    "file": "02-follow-up-question-types.png",
+    "alt": "Diagram of four follow-up question types, each with a sample question about a tutoring program story",
+    "caption": "McKinsey interviewers ask 10 to 25 follow-ups per story, drawn from these four types.",
+    "source": "Source: Hacking the Case Interview, PEI follow-up question types, June 2026.",
+    "method": "Diagram drawn in matplotlib from the four follow-up types in the scoring section and the sample follow-ups listed under the leadership story",
+    "anchor": "Hacking the Case Interview sorts PEI follow-ups into four ty",
+    "regenerate_at_publish": false
+  },
+  {
+    "file": "03-pei-answer-timing.png",
+    "alt": "Bar chart of seconds spent on summary, problem, actions and result in a McKinsey PEI answer",
+    "caption": "Actions get two to three minutes; summary, problem and result get 10 to 45 seconds each.",
+    "source": "Source: Hacking the Case Interview, McKinsey PEI answer timing, June 2026.",
+    "method": "Bars from the Hacking the Case Interview timing sentence in the draft (10 to 15 seconds, 30 to 45 seconds, two to three minutes, 30 to 45 seconds); navy to the low end, light blue to the high end",
+    "anchor": "Every one of the six stories uses the same five-part structu",
+    "regenerate_at_publish": false
+  },
+  {
+    "file": "04-five-part-story-example.png",
+    "alt": "Five stacked boxes showing setup, role, actions, result and lesson for the club recruiting story, actions shaded",
+    "caption": "The shaded actions block is the part the interviewer scores and gets two to three minutes of the telling.",
+    "source": "Source: WSG analysis of the firm pages and trackers cited in this article.",
+    "method": "Diagram drawn in matplotlib from the five-part structure sentence and the club recruiting (failure) story in the draft, in note form",
+    "anchor": "Then build the one-page grid. Down the left side, the six st",
+    "regenerate_at_publish": false
+  },
+  {
+    "file": "05-story-to-firm-grid.png",
+    "alt": "Table mapping six fit stories to McKinsey dimensions, BCG qualities, Bain prompts and tier 2 firm questions",
+    "caption": "Each story carries a first and second McKinsey tag, so six stories give two examples per dimension.",
+    "source": "Source: WSG analysis of the firm pages and trackers cited in this article.",
+    "method": "Table drawn in matplotlib from the story grid in the draft, cells condensed to note form (every word checked against the draft's row)",
+    "anchor": "| 6. Analytical problem | Drive, if it involved setbacks (ot",
+    "regenerate_at_publish": true
+  }
+]

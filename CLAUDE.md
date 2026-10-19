@@ -20,13 +20,13 @@ When the user asks you to write, draft, or generate any WSG content (articles, b
 - `consulting/`: canonical consulting context bundle. **Required reading whenever the article topic is consulting.**
 - `content-calendar/`: keyword + headline plan. Run `python3 scripts/parse_calendar.py` to refresh `calendar.md`.
 - `scripts/`: `check_article.py` (compliance gate), `check_style.py` (prose-level style guard), `check_links.py` (link verifier), `markdown_to_docx_v2.py` (current .docx builder), `markdown_to_wix_html.py` (publishing prep), `parse_calendar.py`, `sync_samples.py`, `verified-brands.txt`
-- `.claude-skill/SKILL.md`: full skill definition (October 8 and October 7 rules at the top, then workflow, hard rules, VERIFY protocol)
+- `.claude-skill/SKILL.md`: full skill definition (October 14, 12, 8 and 7 rules at the top, then the editorial plan and quality review in the workflow, hard rules, VERIFY protocol)
 - `.claude-skill/consulting.md`: consulting-vertical addendum. Loads ALONGSIDE the main skill whenever the topic is consulting.
 - `.claude-skill/source-verification.md`: three-tier entity-verification protocol. **Loads ALONGSIDE every article task.**
 - `.claude-skill/intros.md`: the opening (October 8, 2026): answer the question in sentence one, a bolded full-sentence fact, one line on what the article covers. No narrative openings, no bio. **Loads on every draft and revision.**
 - `.claude-skill/plain-language.md`: technical ideas in plain words at first use. **Loads on every draft and revision.**
-- `.claude-skill/thorough-explanations.md`: catches jumpy explanations, expands them within the length target, defines the Thoroughness Report. **Loads on every draft and revision.**
-- `.claude-skill/prose-editing.md`: prose rules 1 to 16 (echo enders, say-it-out-loud test, plain and signposted headers, question headers, full-sentence bolds, no unsupported opinions, length cut). Loads on every draft and revision after the modules above.
+- `.claude-skill/thorough-explanations.md`: explains the core deeply from researched how-to material and keeps background short; defines the Thoroughness Report. **Loads on every draft and revision.**
+- `.claude-skill/prose-editing.md`: prose rules 1 to 24 (echo enders, say-it-out-loud test, plain and signposted headers, question headers, full-sentence bolds, no unsupported opinions, length cut, own field, no trivia, no firm-side why, section verdicts, no absolutes, each point once, reader level, example proportion). Loads on every draft and revision after the modules above.
 - `.claude-skill/formatting.md`: Title / Heading 2 / Normal structure and spacing spec for .docx output.
 - `.claude-skill/images.md`: pictures and graphs (banking-format charts, model screenshots, diagrams, credited outside images, source lines), plus the October 8 image-text humanizer pass.
 - `.claude-skill/recruiting-relevance.md`: 1-5 recruiting-relevance score for keyword research and content-calendar planning.
@@ -35,11 +35,11 @@ When the user asks you to write, draft, or generate any WSG content (articles, b
 
 ## The three article formats
 
-1. **Ultimate guide**: insight-led guide. About 5,000 to 6,000 words. 6-8 sections; numbered insights use short plain claim headings.
-2. **Listicle**: curated roundup. About 4,500 to 6,000 words. Exact count from headline.
-3. **Niche**: firm/role, edge-case student, or honest review. About 4,500 to 5,500 words. Pulls from a deep dive when one exists.
+1. **Ultimate guide**: insight-led guide. Focused (about 2,500 to 3,500 words) or in-depth (up to about 6,000), set by the editorial plan. 6-8 sections; numbered insights use short plain claim headings.
+2. **Listicle**: curated roundup. Length set by the editorial plan; usually 2,500 to 4,500 words. Exact count from headline.
+3. **Niche**: firm/role, edge-case student, or honest review. Usually a focused piece, about 2,500 to 3,500 words. Pulls from a deep dive when one exists.
 
-**Length target (October 8, 2026):** about 20 to 25 pages in the built .docx before images (roughly 250 words a page at WSG spacing). Recent drafts ran about 35 pages. Shorter is fine; longer only when the topic truly needs it, with the reason in the Thoroughness Report. Cut repetition and side material, never explanation steps.
+**Length (October 14, 2026):** length follows the question: focused pieces about 2,500 to 3,500 words, in-depth guides up to about 6,000 (20 to 25 pages). Write the editorial plan first (SKILL.md workflow step 1) and run the quality review before delivery (step 9). Focused beats comprehensive: the important information shouldn't get buried.
 
 ## Hard rules (always enforce)
 
@@ -50,14 +50,14 @@ When the user asks you to write, draft, or generate any WSG content (articles, b
 - Listicle counts must match the headline exactly
 - Inline anchor-word hyperlinks (never URL footers)
 - No em dashes or hyphens as structural punctuation in body copy
-- Every section needs a specific (named firm, real number, or named scenario)
+- Be specific where it helps the reader (a named firm, a real number, a concrete example); don't add one just to have it
 - **Voice:** "you" for the reader, "we" for WSG, light first-person framing allowed ("In this article, I lay out..."). No byline, no bio, no credentials, no personal memories or composite-student stories in the intro.
 - Plain, literal headers; numbered insight headings are short plain claims ("1. Your school matters but probably not in the way you think")
 - No negatives about the writer, WSG, the article or the reader
-- Bolded sentences are full sentences with a fact, and reading only the bolds conveys the argument
+- Bolded sentences are full sentences, hedged where the fact varies; bold what's worth remembering, not one per section by quota
 - Every image carries a source line, built charts use the banking format, and **all image text goes through the humanizer pass** in `images.md`
 - No filler phrases, no basic definitions. (Basic = the field. Technical machinery still gets a plain-words explanation at first use.)
-- **Explain the machinery in plain words and walk every step, once.** One worked example per mechanism.
+- **Explain the core (what the reader came to learn how to do) fully, from researched how-to material; background gets two lines or none.** Say each point once, match the reader's level, hedge where practice varies (October 14).
 - CTA only if it lands naturally; default to no CTA
 - **Calibrate on Stephen's picks** (`samples/reference-articles.md` and the three endorsed samples). Never on `drafts/` or `published/ai-written/`.
 - **For any article referencing recruiting years, read `style-guide/recruiting-timeline-glossary.md` first.** Standard sophomore cycle: apply year `A` → intern Summer `A+1` → graduate Spring `A+2`.
@@ -67,7 +67,7 @@ When the user asks you to write, draft, or generate any WSG content (articles, b
 - **Listicle items use bullet structure** (Website, Apply Link, Deadline, Eligibility, Who/Why) + short description.
 - **Use contractions.**
 - **For recruiting articles, target the next open cycle.**
-- **For how-to-answer articles, include "say this / don't say that" callouts** at the end (four or five).
+- **Say this / don't say that callouts are optional** (October 14); use two or three only when they show something the examples haven't.
 - **For "Top N" lists, address the top firms NOT on the list** in a short section.
 - **Hard paragraph breaks at logical pivots within sections.**
 - **Run a niche-specific freshness check before finalizing a curated list.**
@@ -88,9 +88,9 @@ When the user asks you to write, draft, or generate any WSG content (articles, b
 5. Load matching template from `templates/`
 6. Check `deep-dives/` for relevant source material
 7. Read one of Stephen's endorsed samples of the same format if one exists
-8. Outline first (including the intro's first sentence and the word target), get approval
+8. Write the editorial plan (reader, question, three-sentence answer, explain fully / two lines / cut, one purpose per section, length budget), then outline from it
 9. Draft to `drafts/draft-{slug}-v1.md`, opening per `.claude-skill/intros.md`. Tag every time-sensitive claim with `[VERIFY: ...]`.
-10. Run the plain-language pass, then the thoroughness pass, then the prose pass (including the length cut)
+10. Run the plain-language pass, then the thoroughness pass (overexplanation first, jumps only in what the reader will do), then the section verdict and prose pass, then the quality review against the plan
 11. Run `python3 scripts/check_article.py drafts/{file}.md`
 12. Run the SEO checklist and the gut check
 13. Build the .docx with `python3 scripts/markdown_to_docx_v2.py`

@@ -1,0 +1,23 @@
+[
+  {
+    "file": "01-class-of-2029-timeline.png",
+    "alt": "Timeline from October 2026 to Summer 2028 showing Bain's sophomore program dates and the expected ACI window",
+    "caption": "The only firm deadline in front of a sophomore today is November 30, and the ACI window that matters is expected a few weeks after the February programs.",
+    "method": "Timeline drawn in matplotlib from the Class of 2029 table in the draft; the ACI windows carry [VERIFY] tags and are shown as expected",
+    "anchor": "| Full-time Associate Consultant | Offer decision at the end"
+  },
+  {
+    "file": "02-four-programs-compared.png",
+    "alt": "Grid comparing Bain's BEL, CREW, First Forward and Consulting Kickstart by dates, format, offices, eligibility and selection",
+    "caption": "BEL, CREW and First Forward are the same day and a half aimed at three communities with one application, and Kickstart is the free webinar series that already closed.",
+    "method": "Text graphic drawn in matplotlib from the four program sections of the draft (dates, offices, eligibility, selection, FAQ wording)",
+    "anchor": "**Every Bain program a US sophomore can apply to is one of f"
+  },
+  {
+    "file": "03-weeks-between-plan.png",
+    "alt": "Timeline from October 2026 to July 2027 with the five-step plan and the short gap before the ACI deadline",
+    "caption": "Five to eight weeks separate an early 2027 program from the expected ACI deadline, so the December cases are the ones that count.",
+    "method": "Timeline drawn in matplotlib from the five-step plan and the program dates in the draft; the late March ACI deadline is projected from the 2026 pattern and marked expected",
+    "anchor": "- **Spring to summer 2027.** Assessment, first round, final "
+  }
+]

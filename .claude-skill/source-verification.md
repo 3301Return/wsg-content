@@ -141,7 +141,7 @@ Every article delivered to the user must close with a structured summary that di
 ```
 Delivery summary
 ----------------
-- Word count: NNNN (guideline X-Y; over is fine, see thorough-explanations.md)
+- Word count: NNNN (target X-Y)
 - Em-dashes: N
 - Named entities verified: N of N (list any that remain provisional)
 - URLs verified live: N of N (list any 404s)

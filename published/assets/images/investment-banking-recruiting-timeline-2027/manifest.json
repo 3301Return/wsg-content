@@ -1,0 +1,50 @@
+[
+  {
+    "file": "01-full-cycle-timeline.png",
+    "alt": "Timeline from September 2026 to January 2029 with seven periods of the Summer 2028 investment banking recruiting cycle",
+    "caption": "The cycle runs about 22 months, and the bulge bracket seats are decided between December 2026 and May 2027.",
+    "source": "Firm pages and the Extern, Prospect Rock and Superday AI trackers, October 2026",
+    "method": "Timeline drawn in matplotlib from the one-page cycle table in the draft; the bulge bracket and on-cycle windows are tracker projections and shown as expected",
+    "anchor": "**The cycle runs about 22 months from this fall to the retur"
+  },
+  {
+    "file": "02-fall-2026-program-deadlines.png",
+    "alt": "Table of fifteen sophomore and insight programs with their fall 2026 deadlines and the source of each date",
+    "caption": "Seven programs close between October 18 and October 30, 2026, and four more are expected in November and January.",
+    "source": "Program pages and the Extern and Prospect Rock trackers, October 2026",
+    "method": "Table graphic drawn in matplotlib from the fall 2026 program table in the draft; rows marked Expected are not yet posted",
+    "anchor": "**Seven sophomore programs close between October 18 and Octo"
+  },
+  {
+    "file": "03-summer-2027-bulge-bracket-windows.png",
+    "alt": "Table of eleven banks with their Summer 2027 application open and close dates and the expected Summer 2028 posting month",
+    "caption": "Ten of the eleven banks opened in December 2025 or January 2026, and Extern expects the same months again.",
+    "source": "Prospect Rock, Extern, Superday AI, Vault, eFinancialCareers and Wall Street Oasis, October 2026",
+    "method": "Table graphic drawn in matplotlib from the bulge bracket table in the draft; the Summer 2028 column is Extern's projection and shown as expected",
+    "anchor": "The Summer 2027 columns come from Prospect Rock's Class of 2"
+  },
+  {
+    "file": "04-firms-posting-by-month.png",
+    "alt": "Grouped bar chart of firms first posting Summer Analyst roles by month, Summer 2027 counted and Summer 2028 forecast",
+    "caption": "Adventis forecasts 46 firms first posting in January 2027, against 47 in January 2026.",
+    "source": "Adventis, Class of 2029 recruiting hub, October 2026",
+    "method": "Grouped bars drawn in matplotlib from the Adventis counts in the draft (28 and 47 firms for Summer 2027; 2, 2, 11, 27 and 46 forecast for Summer 2028); the forecast is dated",
+    "anchor": "The volume numbers say the same thing. Adventis tracks a lit"
+  },
+  {
+    "file": "05-goldman-application-to-offer.png",
+    "alt": "Five boxes from a January 1, 2027 Goldman application through HireVue and superday to a March or April offer",
+    "caption": "A Goldman application on January 1 reaches the HireVue within days and an offer by March or April.",
+    "source": "WSG, from last cycle's Goldman gaps reported by Wall Street Oasis posters and Extern, October 2026",
+    "method": "Sequence diagram drawn in matplotlib from the Goldman January 1 chain in the draft; every step is a projection from last cycle and shown as expected",
+    "anchor": "Put the pieces together for one Goldman application on Janua"
+  },
+  {
+    "file": "06-pe-on-cycle.png",
+    "alt": "Vertical timeline of six events from the June 2025 bank memos to the January 2026 on-cycle restart",
+    "caption": "On-cycle recruiting paused after the June 2025 bank memos and restarted on January 5, 2026.",
+    "source": "Fortune, Banking Dive and eFinancialCareers, citing Bloomberg and the Financial Times, June 2025 to January 2026",
+    "method": "Timeline drawn in matplotlib from the private equity on-cycle paragraphs in the draft (June 4, 11, 12 and July 9, 2025; January 5 and 6, 2026)",
+    "anchor": "**Private equity on-cycle recruiting restarted on Monday, Ja"
+  }
+]

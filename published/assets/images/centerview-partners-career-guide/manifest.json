@@ -1,0 +1,44 @@
+[
+  {
+    "file": "01-six-mandates-by-size.png",
+    "alt": "Horizontal bar chart of six Centerview mandates by deal size, from Verona Pharma to Paramount and Warner Bros. Discovery",
+    "caption": "Centerview's role on all six is spelled out in the press release or merger filing, and the sizes run from $10 billion to $110 billion.",
+    "method": "Chart from the section 1 deals table in the draft (figures from each deal's press release or 8-K, tagged [VERIFY] there); each bar is labeled with the size measure the draft gives",
+    "anchor": "[VERIFY: each row against the cited press release or 8-K; Pa"
+  },
+  {
+    "file": "02-analyst-pay-reported.png",
+    "alt": "Range chart comparing reported Centerview analyst base and all-in pay with bulge bracket first-year pay",
+    "caption": "Centerview's base is $20,000 above a bulge bracket's, and the reported all-in figures sit well above a bulge bracket's $160,000 to $180,000.",
+    "method": "Chart from the section 3 pay stack table and the paragraph under it (Financial News, Litquidity via eFinancialCareers, Wall Street Oasis, all tagged [VERIFY] in the draft)",
+    "anchor": "Read the table from the bottom up. A bulge bracket first-yea"
+  },
+  {
+    "file": "03-accretion-by-mix.png",
+    "alt": "Bar chart of acquirer EPS accretion for four financing mixes: 10.0, 4.4, 3.4 and 5.6 percent",
+    "caption": "The target earns 6.25 cents per dollar of price, more than either stock at 5 cents or after-tax debt at 4.5, so every mix accretes and all cash accretes most.",
+    "method": "Chart from the Question 1 table and follow-ups in section 6; every scenario recomputed in this script from the stated inputs and asserted against the draft",
+    "anchor": "Without synergies, pro forma net income is 564, EPS is $2.61"
+  },
+  {
+    "file": "04-paper-lbo-debt-paydown.png",
+    "alt": "Line chart of the paper LBO's debt falling from 360 to 77 while EBITDA rises from 80 to 120",
+    "caption": "Interest shrinks as the debt does, so each year more of the cash goes to principal, and the paydown speeds up from 40 to 74 a year.",
+    "method": "Chart from the Question 2 table in section 6, recomputed in this script with rounding at each line and asserted against the draft",
+    "anchor": "Figures rounded to the nearest million at each step, which i"
+  },
+  {
+    "file": "05-paper-lbo-value-bridge.png",
+    "alt": "Waterfall chart from $280 million of sponsor equity to $883 million at exit through EBITDA growth and debt paydown",
+    "caption": "Two sources and no multiple expansion: $280 million plus $320 million plus $283 million is the $883 million the sponsor takes out, and it ties.",
+    "method": "Waterfall from the Question 2 follow-up in section 6 (320 + 283 = 603), recomputed in this script and asserted",
+    "anchor": "The follow-up to expect: where did the return come from? Thr"
+  },
+  {
+    "file": "06-paramount-timeline.png",
+    "alt": "Timeline from December 2025 to October 2026 of Paramount's hostile bid, signed deal, approvals, lawsuit and expected close",
+    "caption": "A hostile bid against a signed deal, a board process, a shareholder vote, two regulators and a lawsuit, and the close is expected the day after this guide's date check.",
+    "method": "Timeline drawn in matplotlib from the Paramount paragraph in section 1 (dates tagged [VERIFY] in the draft); the October 6 close is shown as expected",
+    "anchor": "The Paramount deal is worth a minute because it's the kind o"
+  }
+]

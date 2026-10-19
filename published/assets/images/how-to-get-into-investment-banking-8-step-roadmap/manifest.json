@@ -1,0 +1,50 @@
+[
+  {
+    "file": "01-goldman-intern-applications.png",
+    "alt": "Bar chart of intern applications against intern class size at Goldman Sachs in 2025 and Bank of America in 2026",
+    "caption": "Goldman Sachs accepted 0.7 percent of intern applicants in 2025 and Bank of America about 0.8 percent in 2026.",
+    "source": "Fortune, Goldman Sachs intern class, June 2025 and June 2026; Business Insider, Bank of America internships, 2026",
+    "method": "Bar chart drawn in matplotlib from the figures in the 'How hard is it' section of the draft (360,000 and 2,600; 240,000 and 2,000; 2026 class of 2,500), tagged [VERIFY] there",
+    "anchor": "Very hard by the numbers, and a process rather than a lotter"
+  },
+  {
+    "file": "02-top-feeder-schools.png",
+    "alt": "Horizontal bar chart of entry-level Investment Banking Analysts by school: NYU 386, Michigan 296, Cornell 279, Baruch 168",
+    "caption": "NYU leads with 386 analysts, and Baruch, a public college, places 168, 11th on the list.",
+    "source": "College Transitions, top feeder schools for banking, April 2025",
+    "method": "Horizontal bars drawn in matplotlib from the four school counts the draft gives in the target-school section (386, 296, 279, 168 and the 10,500 total)",
+    "anchor": "No. Goldman's 2024 intern class came from more than 475 scho"
+  },
+  {
+    "file": "03-fall-2026-program-deadlines.png",
+    "alt": "Table of eleven freshman and sophomore banking program deadlines for fall 2026, with who can apply and status",
+    "caption": "Four sophomore programs close between October 19 and October 30, 2026, and two expected windows follow in November.",
+    "source": "Firm careers pages, Extern and Prospect Rock, October 2026",
+    "method": "Table graphic drawn in matplotlib from the program list in step 3 of the draft (every date tagged [VERIFY] there); Barclays and JPMorganChase are shown as expected",
+    "anchor": "The banks run short programs for first-years and sophomores,"
+  },
+  {
+    "file": "04-networking-funnel.png",
+    "alt": "Funnel diagram showing 100 networking emails leading to 10 to 25 replies and 5 to 12 calls",
+    "caption": "Every 100 emails to the right bankers produce 10 to 25 replies and 5 to 12 calls.",
+    "source": "Mergers & Inquisitions, investment banking networking guide",
+    "method": "Funnel drawn in matplotlib from the reply rate (10 to 25 percent) and call rate (about half of repliers) in step 4 of the draft",
+    "anchor": "**Mergers & Inquisitions puts the reply rate on well-targete"
+  },
+  {
+    "file": "05-firms-posting-by-month.png",
+    "alt": "Bar chart of firms posting their first Summer 2027 analyst application: 28 in December 2025, 44 in January 2026",
+    "caption": "Adventis counted 28 firms posting in December 2025 and 44 more in January 2026.",
+    "source": "Adventis, Class of 2028 recruiting timeline, updated September 1, 2026",
+    "method": "Bar chart drawn in matplotlib from the two Adventis counts in step 7 of the draft (28 and 44), tagged [VERIFY] there",
+    "anchor": "Here's what that looked like last cycle, for Summer 2027."
+  },
+  {
+    "file": "06-application-to-offer.png",
+    "alt": "Sequence diagram of six steps from application through resume screen, HireVue, first round and superday to offer",
+    "caption": "The HireVue arrives with a three to seven day window, and offers often follow the superday within days.",
+    "source": "Goldman Sachs students page; Leland, June 2026; Prospect Rock, July 2026",
+    "method": "Sequence drawn in matplotlib from the process paragraph in step 7 and the HireVue paragraph in step 6 of the draft (figures tagged [VERIFY] there)",
+    "anchor": "What happens after you submit, at a bulge bracket: a resume "
+  }
+]

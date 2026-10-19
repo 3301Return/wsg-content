@@ -1,0 +1,44 @@
+[
+  {
+    "file": "01-change-in-nwc-year-1-to-year-2.png",
+    "alt": "Spreadsheet of Ridgeline's operating assets and liabilities in Year 1 and Year 2 with change and cash effect columns",
+    "caption": "The same table in a sheet: receivables and inventory up 25, payables up 5, and the 20 of net working capital build shows up as 20 of cash out.",
+    "method": "workbook scripts/images/models/ridgeline-nwc.xlsx, sheet NWC schedule, range B11:G22",
+    "anchor": "| **Net working capital** | **90** | **110** | **+20** | **("
+  },
+  {
+    "file": "02-nwc-to-unlevered-fcf-bridge.png",
+    "alt": "Waterfall chart from EBIT of 100 through taxes, D&A, capex and the working capital build to free cash flow of 50",
+    "caption": "Free cash flow would have been 70 with working capital flat; the 20 that went into receivables and inventory is the orange bar.",
+    "method": "chart from the article's section 5 table (unlevered free cash flow, Year 2) and the 'if NWC had stayed flat' sentence after it",
+    "anchor": "Now change one thing. If net working capital had stayed flat"
+  },
+  {
+    "file": "03-working-capital-peg.png",
+    "alt": "Spreadsheet showing a 500 million price and 50 million peg with closing working capital of 45, 50 and 58 giving final prices of 495, 500 and 508",
+    "caption": "Every dollar of closing working capital above or below the 50 peg moves the 500 price by a dollar, and the formula is one addition.",
+    "method": "workbook scripts/images/models/ridgeline-nwc.xlsx, sheet Working capital peg, range B5:H13",
+    "anchor": "| 58 | +8 | 508 |"
+  },
+  {
+    "file": "04-cash-conversion-cycle-timeline.png",
+    "alt": "Two timelines of inventory, receivable and payable days showing Ridgeline's 60 day cycle and Amazon's negative 53 day cycle",
+    "caption": "Read each panel left to right from the day the supplier delivers: Ridgeline pays on day 43 and collects on day 102, while Amazon collects on day 60 and pays on day 114.",
+    "method": "chart from the article's section 8 figures: Ridgeline DSO 29, DIO 73, DPO 43; Amazon fiscal 2020 DSO 23.2, DIO 37.2, DPO 113.5 from the article's Amazon table",
+    "anchor": "Amazon collected from customers about 23 days after a sale o"
+  },
+  {
+    "file": "05-days-method-year-3-projection.png",
+    "alt": "Spreadsheet computing DSO, DIO and DPO for two years, then projecting Year 3 receivables, inventory and payables from rounded days with formulas shown",
+    "caption": "The days come out of the Year 2 actuals, get rounded to 33, 75 and 44 as inputs, and the Year 3 balances are one formula each: days over 365 times revenue or cost of goods sold.",
+    "method": "workbook scripts/images/models/ridgeline-nwc.xlsx, sheet NWC schedule, range B24:G42 (formula column G holds the formula text next to each row)",
+    "anchor": "| **Increase (use of cash)** | | | **3.6** |"
+  },
+  {
+    "file": "06-inventory-three-statement-walk.png",
+    "alt": "Spreadsheet walking 10 dollars of inventory bought for cash and then sold for 15 through the income statement, cash flow statement and balance sheet",
+    "caption": "Step 1 never touches the income statement, step 2 is where the cost and the profit both appear, and the balance check row stays at zero in every column.",
+    "method": "workbook scripts/images/models/ridgeline-nwc.xlsx, sheet Inventory walk, range B5:F30",
+    "anchor": "The follow-up is usually \"now it sells for $15, with a 25 pe"
+  }
+]

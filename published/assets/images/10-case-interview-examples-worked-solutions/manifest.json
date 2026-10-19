@@ -1,0 +1,65 @@
+[
+  {
+    "file": "01-enrico-fermi-los-alamos-badge.png",
+    "alt": "Black and white wartime Los Alamos identity badge photo of physicist Enrico Fermi, badge number G 24",
+    "caption": "Enrico Fermi, whose paper-scrap estimate of the Trinity blast is the habit every sizing case below tests. Photo: Los Alamos National Laboratory, public domain, via Wikimedia Commons.",
+    "method": "Photo from Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Enrico_Fermi_ID_badge.png, license PD-USGov-DOE (public domain, US Department of Energy work; source Los Alamos National Laboratory); file rendition https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Enrico_Fermi_ID_badge.png/330px-Enrico_Fermi_ID_badge.png, resampled to twice its pixel size",
+    "anchor": "**Market sizing cases grade the chain of assumptions and the"
+  },
+  {
+    "file": "02-airline-profitability-issue-tree.png",
+    "alt": "Issue tree splitting the airline's $40 million profit drop into revenue up $30 million and costs up $70 million",
+    "caption": "The profit tree for case 1: revenue rose $30 million on volume alone, and $42 million of the $70 million cost increase is the fuel price.",
+    "method": "Issue tree drawn in matplotlib from the case 1 structure paragraph, data table and math",
+    "anchor": "**Structure:** Profit is revenue minus cost, so a 5 percent "
+  },
+  {
+    "file": "03-airline-cost-bridge.png",
+    "alt": "Waterfall chart from $60 million of operating profit to $20 million, with fuel price as the largest step",
+    "caption": "Walk the bridge and the story is one bar: the 40 cent fuel price rise took $42 million, and everything else the airline did netted out to a $2 million gain.",
+    "method": "Waterfall from the case 1 data table and math list (revenue, fuel price and volume effects, crew, other costs)",
+    "anchor": "- **A 16 percent rise in the price of fuel cost the airline "
+  },
+  {
+    "file": "04-ev-charging-market-entry-issue-tree.png",
+    "alt": "Issue tree for the EV charging market entry case: market, right to win, unit economics, and risks",
+    "caption": "The market entry tree for case 3 ends at one number, sessions per charger per day, and the recommendation is built around learning it.",
+    "method": "Issue tree drawn in matplotlib from the case 3 structure paragraph and data table",
+    "anchor": "**Structure:** Four questions. Is the market attractive: how"
+  },
+  {
+    "file": "05-ev-charging-unit-economics.png",
+    "alt": "Two charts: $12.90 of contribution per charging session, and yearly site contribution at 3 versus 8 daily sessions",
+    "caption": "Each session earns $12.90, so a site clears the $120,000 a year that a five-year payback needs only at 8 sessions per charger per day, not today's 3.",
+    "method": "Charts from the case 3 data table (per site, four chargers) and the math list (margin per session, 3 and 8 session cases, break-even)",
+    "anchor": "- **A site pays back in five years only at about 8 sessions "
+  },
+  {
+    "file": "06-snack-ma-issue-tree.png",
+    "alt": "Issue tree for the popcorn acquisition case: standalone value, cost and revenue synergies, risks, alternatives",
+    "caption": "The acquisition tree for case 4: the price sits $360 million above standalone value, and the synergies have to cover the gap.",
+    "method": "Issue tree drawn in matplotlib from the case 4 structure paragraph, data table and math",
+    "anchor": "**Structure:** Three questions decide an acquisition. What i"
+  },
+  {
+    "file": "07-software-pricing-three-options.png",
+    "alt": "Two charts: annual revenue impact of matching, holding, or adding tiers, and the parts of the three-tier move",
+    "caption": "The blanket cut gives up $48 million a year on day one; three tiers lose $9.6 million on downgrades and win it back twice over on upgrades and new starters.",
+    "method": "Charts from the case 5 data table and math list (match, worst case, three-tier downgrades, upgrades, new customers, net)",
+    "anchor": "- **Matching the competitor costs $48 million a year with ce"
+  },
+  {
+    "file": "08-tire-market-sizing-funnel.png",
+    "alt": "Funnel from 335 million people to 280 million vehicles to 70 million sets to 280 million replacement tires a year",
+    "caption": "The top-down chain for case 6 has four links, and the two checks at the bottom land within 10 percent of the estimate.",
+    "method": "Funnel drawn in matplotlib from the case 6 assumptions table, math list and sanity checks",
+    "anchor": "- **About 280 million replacement tires a year, within 10 pe"
+  },
+  {
+    "file": "09-car-wash-returns-by-scenario.png",
+    "alt": "Two charts: $60 million of equity becoming $238 million or $97 million, and MOIC by scenario against a 3x hurdle",
+    "caption": "Three of the four cases clear the fund's 3x hurdle; the one that doesn't is the one where the new sites never get built, which is why diligence goes there.",
+    "method": "Charts from the case 10 math list (financing, exit, base and downside returns) and the recommendation's 3.6x and 3.3x sensitivities",
+    "anchor": "- **The base case returns 4.0x and a 32 percent IRR, but wit"
+  }
+]

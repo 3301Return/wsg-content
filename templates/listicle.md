@@ -2,7 +2,7 @@
 
 **Use when:** Curated resource roundups, ranked lists, "top N" posts.
 **Examples:** "Top 10 Sophomore Insights Programs for IB" · "10 Investment Banking Internships to Apply To in 2027" · "Top 10 Free Resources for Investment Banking Interview Questions in 2026"
-**Length target:** about 4,500 to 6,000 words (about 20 to 25 pages in the built .docx before images). Shorter is fine when the list is covered. A 50-question list can run longer; say why in the Thoroughness Report.
+**Length (October 14, 2026):** length follows the question. Focused pieces about 2,500 to 3,500 words; in-depth guides up to about 5,000 to 6,000 (20 to 25 pages). Write the editorial plan in SKILL.md first; its budget is the target.
 **Required:** Exact count from headline · 1-2 H2 sub-questions phrased as the reader's exact question · Inline anchor-word hyperlinks · **Bolded lead-claim sentence + bolded concrete-takeaway sentence per item** (the skim narrative)
 
 ---

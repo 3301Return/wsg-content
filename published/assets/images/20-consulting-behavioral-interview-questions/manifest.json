@@ -1,0 +1,23 @@
+[
+  {
+    "file": "01-pei-vs-standard-behavioral.png",
+    "alt": "Timeline comparing the McKinsey PEI, one story over ten minutes, with a standard behavioral round of five questions in twenty.",
+    "caption": "Same half hour of fit questions, two very different shapes: the PEI goes deep on one story and a standard round skims five.",
+    "method": "Matplotlib timeline from the article's own description of the two formats (one story in about ten minutes; five questions in twenty), scripts/images/build_20-consulting-behavioral-interview-questions.py.",
+    "anchor": "**The McKinsey PEI goes deep on one story for about ten minu"
+  },
+  {
+    "file": "02-structured-vs-unstructured-validity.png",
+    "alt": "Bar chart showing interview validity of 0.51 for structured interviews against 0.38 for unstructured interviews.",
+    "caption": "The jump from 0.38 to 0.51 is why the firms grade your stories against a sheet, per Schmidt and Hunter's 1998 review of 85 years of hiring research.",
+    "method": "Chart drawn from the two figures the article cites (Schmidt and Hunter 1998, structured 0.51, unstructured 0.38), scripts/images/build_20-consulting-behavioral-interview-questions.py.",
+    "anchor": "Behavioral interviewing is younger than most students assume"
+  },
+  {
+    "file": "03-five-part-story-shape.png",
+    "alt": "Five boxes for setup, problem, your actions, result and what changed, with the actions box highlighted as the scored part.",
+    "caption": "Every story has the same five parts, and the follow-ups all land in the third one, so write the actions out before you practice the rest.",
+    "method": "Matplotlib text diagram from the article's five-part story list, scripts/images/build_20-consulting-behavioral-interview-questions.py.",
+    "anchor": "- One sentence on what you'd do differently or what changed "
+  }
+]

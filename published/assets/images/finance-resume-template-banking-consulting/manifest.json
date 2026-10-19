@@ -1,0 +1,23 @@
+[
+  {
+    "file": "01-jane-doe-page-callouts.png",
+    "alt": "Jane Doe sample resume with five numbered callouts on the header, GPA line, first bullet, Leadership section and Additional Information.",
+    "caption": "The whole page at a glance: five places a screener's eyes land, and the rule each one follows.",
+    "method": "Page 1 of published/assets/Sample Finance Resume (Jane Doe).pdf rendered with pdftoppm at 150 dpi; callouts drawn with Pillow from pdfplumber line positions (scripts/images/resume_callouts.py).",
+    "anchor": "That's the whole page: twelve bullets across Experience and "
+  },
+  {
+    "file": "02-bullet-formula.png",
+    "alt": "Diagram splitting Jane's comps bullet into four labeled parts: verb, what, how and number, above the assembled bullet.",
+    "caption": "Every strong bullet on the page is these four parts in this order, and the weak version at the top has none of them.",
+    "method": "Matplotlib text diagram from the article's section 4 worked example (scripts/images/build_finance-resume-template-banking-consulting.py).",
+    "anchor": "Put together: \"Built the trading comparables and precedent t"
+  },
+  {
+    "file": "03-banking-read-vs-consulting-read.png",
+    "alt": "Jane Doe's resume shown twice, with six numbered boxes marking what the banking and consulting versions each lead with.",
+    "caption": "Same page, same facts: the six boxes are the only things that move between the banking version and the consulting version.",
+    "method": "Page 1 of published/assets/Sample Finance Resume (Jane Doe).pdf rendered twice at 150 dpi with Pillow boxes on the six regions section 7 describes (scripts/images/resume_callouts.py).",
+    "anchor": "Here are the six changes marked on Jane's page, the banking "
+  }
+]

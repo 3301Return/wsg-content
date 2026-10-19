@@ -1,0 +1,37 @@
+[
+  {
+    "file": "01-hiring-process-four-steps.png",
+    "alt": "Four boxes in a row showing Bain's hiring steps: application, digital assessment, round one, final round",
+    "caption": "Bain's four steps in order, and the firm tells you how each interview went before the next one.",
+    "method": "Diagram drawn in matplotlib from the four-step list in section 1 of the draft",
+    "anchor": "- **Final round.** Two to three interviews with senior manag"
+  },
+  {
+    "file": "02-freshbowl-store-cohorts.png",
+    "alt": "Three bar charts comparing FreshBowl store cohorts by revenue, margin and EBITDA per store against the plan",
+    "caption": "The newest FreshBowl stores earn less revenue at a thinner margin, so each one makes $100,000 against the $220,000 the plan needs.",
+    "method": "Chart from Exhibit 3 (store performance by age) and the per-store EBITDA figures in the Math question 3 so what",
+    "anchor": "| Opened in the last 2 years | 30 | $1.0 million | 10 percen"
+  },
+  {
+    "file": "03-freshbowl-ebitda-scenarios.png",
+    "alt": "Bar chart of FreshBowl year five EBITDA under three scenarios against the $36 million target line",
+    "caption": "Run the plan on FreshBowl's own cohort numbers and year five EBITDA lands between $24 million and $33.5 million, not $36 million.",
+    "method": "Chart from the Math question 2 and Math question 3 results in section 6 (both passes)",
+    "anchor": "- Gap to target: $36 million minus $33.5 million = **$2.5 mi"
+  },
+  {
+    "file": "04-weak-close-vs-strong-close.png",
+    "alt": "Side by side text of a weak case close that recaps the analysis and a strong close that answers first",
+    "caption": "Same candidate, same numbers: the weak close recaps the case and hedges the verdict, the strong close gives it in four words and stops.",
+    "method": "Text graphic drawn in matplotlib from the two closes quoted in section 7",
+    "anchor": "About 135 words, answer in the first four words, every numbe"
+  },
+  {
+    "file": "05-summer-2028-calendar.png",
+    "alt": "Timeline from October 2026 to September 2027 with Bain's posted deadlines and expected program windows",
+    "caption": "Consulting Kickstart closes this week, BEL and CREW come in the winter, and the first Associate Consultant Intern window is expected in spring 2027.",
+    "method": "Timeline drawn in matplotlib from the section 11 calendar table; windows tagged [VERIFY] in the draft are shown as expected",
+    "anchor": "| Associate Consultant, full time | Seniors graduating Decem"
+  }
+]

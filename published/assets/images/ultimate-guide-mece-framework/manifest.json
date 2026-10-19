@@ -1,0 +1,121 @@
+[
+  {
+    "file": "01-festival-overlap-gap-mece.png",
+    "alt": "Three rows of festival age boxes: one overlaps at 30 and 50, one skips 18 and 19, one is MECE",
+    "caption": "Sort the same 1,000 ticket stubs three ways and the test is visible: the first set claims 30-year-olds twice, the second has no box for an 18-year-old, and only the third passes both.",
+    "method": "Diagram drawn in matplotlib from the three age sorts in section 1 (overlap, gap, MECE)",
+    "anchor": "The version that works is under 18, 18 to 29, 30 to 49, 50 a"
+  },
+  {
+    "file": "02-cut-by-formula-tree.png",
+    "alt": "Tree splitting profit into revenue and cost, each broken into its own formula",
+    "caption": "A formula tree is MECE by construction: profit splits into revenue and cost, revenue into price and volume, and the bakery example closes the price branch in two sentences.",
+    "method": "Tree drawn in matplotlib from the cut-by-formula bullet list in section 3 and the bakery example beneath it",
+    "anchor": "- Variable cost = Volume \u00d7 Cost per unit"
+  },
+  {
+    "file": "03-cut-by-process-order-funnel.png",
+    "alt": "Four step order process with baseline and current month numbers, the checkout start step highlighted as the leak",
+    "caption": "Lay the two months side by side step by step and only one rate moved: checkout starts fell from 50 to 40 percent, which is the whole 9,000 order gap.",
+    "method": "Process diagram drawn in matplotlib from the cut-by-process bullet list and the online retailer example in section 3; orders recomputed as 1,000,000 \u00d7 0.10 \u00d7 0.50 \u00d7 0.90 and \u00d7 0.40",
+    "anchor": "An online retailer gets 1,000,000 visits a month. 10 percent"
+  },
+  {
+    "file": "04-cut-by-segment-revenue-tree.png",
+    "alt": "Tree splitting $600 million of sneaker revenue by channel, then the online channel by geography",
+    "caption": "Channel on one level and geography on the next: the three channels add to $600 million and the two regions add to the $100 million of online sales above them.",
+    "method": "Tree drawn in matplotlib from the cut-by-segment bullet list in section 3; the sums are checked in the build script",
+    "anchor": "- International: $30 million"
+  },
+  {
+    "file": "05-cut-by-opposites-airline-tree.png",
+    "alt": "Tree splitting an airline's on-time decline into causes inside the airline and causes outside it",
+    "caption": "Inside versus outside gets you to full coverage in one line, and the four named causes under each branch are what make it a structure instead of a label.",
+    "method": "Tree drawn in matplotlib from the cut-by-opposites bullet list in section 3",
+    "anchor": "- Late inbound planes from partner airlines"
+  },
+  {
+    "file": "06-restaurant-profit-tree.png",
+    "alt": "Issue tree for a restaurant chain's $13.9 million profit drop: revenue down $2.7 million, costs up $11.2 million by line",
+    "caption": "Every line on the chain's profit and loss statement has one home in this tree, and the labor branch splits again into hours and wage rate so you can see which part the client controls.",
+    "method": "Tree drawn in matplotlib from the tree 1 bullet list in section 5; every figure recomputed from the data table (150 restaurants, covers, check, cost lines, hours, wage) and asserted",
+    "anchor": "- Other (marketing, supplies, head office): $36.0 million to"
+  },
+  {
+    "file": "07-restaurant-profit-bridge.png",
+    "alt": "Waterfall from $22.5 million of operating profit to $8.6 million: volume, price, then four cost lines",
+    "caption": "Walk the bridge left to right and the revenue branch nearly nets out, so the $13.9 million drop is mostly the four cost lines, with labor the biggest of them.",
+    "method": "Waterfall from the tree 1 math list in section 5 (volume and price effects, the four cost line changes); start, steps and end asserted against the data table",
+    "anchor": "- Food cost per cover: $67.5 million \u00f7 9.0 million = $7.50; "
+  },
+  {
+    "file": "08-dishwasher-entry-tree-market-and-win.png",
+    "alt": "Market entry issue tree, first half: market size and growth questions, and whether the client can win in the US",
+    "caption": "The first two questions of the entry tree: the premium segment is $1.8 billion, and the client's brand awareness in the US is close to zero.",
+    "method": "Tree drawn in matplotlib from the tree 2 bullet list in section 5 (branches 1 and 2, with branches 3 and 4 shown folded); the $6.4 billion, 1.2 million unit and $1.8 billion figures recomputed and asserted",
+    "anchor": "- Risks: tariffs, a price response from incumbents, early se"
+  },
+  {
+    "file": "09-dishwasher-entry-tree-math-and-entry.png",
+    "alt": "Market entry issue tree, second half: the year five math at a 10 percent share, and entry mode and risks",
+    "caption": "The math branch pays back in 6.7 years at a 10 percent share and 2.4 years at 15, so the case turns on the share question, which lives in the branch above.",
+    "method": "Tree drawn in matplotlib from the tree 2 bullet list and math list in section 5 (branches 3 and 4, with 1 and 2 folded); revenue, gross profit, operating profit and payback recomputed and asserted for both share cases",
+    "anchor": "- Year five at 15 percent share: 225,000 units \u00d7 $1,500 = $3"
+  },
+  {
+    "file": "10-dental-growth-tree.png",
+    "alt": "Growth issue tree for a dental chain: existing practices split by patients, visits and revenue per visit, plus new practices",
+    "caption": "The top split is opposites and the existing-practice branch is the revenue formula, so any dollar of new revenue has exactly one home in this tree.",
+    "method": "Tree drawn in matplotlib from the tree 3 bullet list in section 5; the lever sizes in the note recomputed from the math list (100,000 patients, 2.0 visits, $600) and asserted",
+    "anchor": "- Buy existing practices"
+  },
+  {
+    "file": "11-dental-lever-bridge.png",
+    "alt": "Bridge from $120 million of dental revenue to $150.72 million through four sized levers and a target line",
+    "caption": "Size the levers before you rank them: recall adds $12 million for almost no money, and the acquisitions the owners called about add $7.5 million for the most capital and risk in the tree.",
+    "method": "Bridge drawn in matplotlib from the tree 3 math list in section 5 (today, three existing-practice levers, five new practices, total); every step recomputed from the inputs and asserted",
+    "anchor": "- Gap to the target: $150 million minus $143.22 million = $6"
+  },
+  {
+    "file": "12-operating-room-idle-hours-tree.png",
+    "alt": "Process issue tree splitting 9,000 idle operating room hours into five moments in the day, each with its hours",
+    "caption": "A process cut is MECE because an empty hour has to happen at one of these five moments, and sizing each branch shows that the loudest complaint, late starts, is the smallest bucket.",
+    "method": "Tree drawn in matplotlib from the tree 4 bullet list in section 5; the hours on each branch recomputed from the math list (8 rooms, 10 hours, 250 days, 20 minutes, three turnovers) and asserted to sum to 9,000",
+    "anchor": "- End of day: a gap too short to fit another case"
+  },
+  {
+    "file": "13-operating-room-idle-hours-by-bucket.png",
+    "alt": "Horizontal bar chart of 9,000 idle operating room hours by bucket, with the 4,000 hours the plan recovers shaded",
+    "caption": "Size each bucket of waste before anyone proposes a fix: unused blocks hold 4,500 of the 9,000 hours, and the late starts every meeting argues about hold 667.",
+    "method": "Bar chart from the tree 4 math list in section 5 (667, 2,000, 4,500, 800, 1,033 hours) and the recommendation's 3,000 plus 1,000 recovery; totals asserted",
+    "anchor": "- Check: 667 + 2,000 + 4,500 + 800 + 1,033 = 9,000. The bran"
+  },
+  {
+    "file": "14-coffee-chain-not-mece-versus-mece.png",
+    "alt": "A flat list giving an app latte two boxes, beside a tree with channel above product",
+    "caption": "Drop a real order into each structure: the flat list gives a latte ordered on the app two homes, and the tree with channel above product gives it one.",
+    "method": "Diagram drawn in matplotlib from drill 1 in section 10 (the MECE tree and the common non-MECE attempt)",
+    "anchor": "A common non-MECE attempt: \"coffee, cold drinks, food, mobil"
+  },
+  {
+    "file": "15-emergency-room-wait-tree.png",
+    "alt": "Issue tree for rising emergency room wait times: demand, capacity, process and outflow, with causes under each",
+    "caption": "The formula behind any queue gives four branches, and the outflow branch (patients admitted but stuck in the ER) is the one a list of complaints leaves out.",
+    "method": "Tree drawn in matplotlib from drill 2 in section 10",
+    "anchor": "- Admitted patients waiting for a bed upstairs, blocking an "
+  },
+  {
+    "file": "16-gym-costs-tree.png",
+    "alt": "Issue tree for a gym's costs: fixed lines and variable lines, with the article's quick numbers on the branches",
+    "caption": "Fixed versus variable is a real pair of opposites, so every cost line has one branch, and 'staff' in the flat list fails because it sits in both.",
+    "method": "Tree drawn in matplotlib from drill 3 in section 10; revenue, variable cost and profit in the note recomputed from the quick numbers and asserted",
+    "anchor": "Quick numbers: 5,000 members \u00d7 $40 a month \u00d7 12 = $2.4 milli"
+  },
+  {
+    "file": "17-trucking-fuel-cost-tree.png",
+    "alt": "Issue tree for a trucking fuel bill: gallons split into miles driven and miles per gallon, plus price",
+    "caption": "Driver training and newer trucks both move miles per gallon, better routes move miles driven and fuel cards move price, and the formula on top is what lets you size them against each other.",
+    "method": "Tree drawn in matplotlib from drill 10 in section 10; the quick numbers in the note recomputed from 10 million miles, 6.5 miles per gallon and $3.80 and asserted against the article's rounded figures",
+    "anchor": "Quick numbers: 10 million miles \u00f7 6.5 miles per gallon = abo"
+  }
+]

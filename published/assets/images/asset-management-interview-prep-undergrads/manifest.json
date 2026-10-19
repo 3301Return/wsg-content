@@ -1,0 +1,30 @@
+[
+  {
+    "file": "01-passive-vs-active-fund-assets-2023.png",
+    "alt": "Bar chart of U.S. fund assets at end of 2023, passive funds 13.29 trillion dollars and active funds 13.23 trillion",
+    "caption": "Passive funds held $13.29 trillion of U.S. fund assets at the end of 2023 against $13.23 trillion in active funds, by Morningstar's count as reported by CNBC in January 2024.",
+    "method": "chart from the article's figures ($13.29 trillion passive, $13.23 trillion active, end of 2023, Morningstar via CNBC), which carry a VERIFY tag in the draft",
+    "anchor": "No, but it's hard in a different way. A bulge bracket bank h"
+  },
+  {
+    "file": "02-seven-part-stock-pitch-structure.png",
+    "alt": "Diagram of the seven parts of a stock pitch in order, with parts three, six and seven highlighted in blue",
+    "caption": "Say the seven parts in this order; the blue ones are where a long-only interviewer spends the most time, and where most undergrads have the least.",
+    "method": "diagram from the article's section 3 structure (parts 1 to 7)",
+    "anchor": "Every strong pitch answers the same seven questions. Learn t"
+  },
+  {
+    "file": "03-dcf-sensitivity-discount-rate-terminal-growth.png",
+    "alt": "Heatmap of DCF value per share across discount rates from 6.5 to 8.5 percent and terminal growth from 2 to 4 percent",
+    "caption": "The base case is $51 at 7.5 percent and 3 percent growth; move one row down and one column left to 8.5 and 2.5 percent and the same cash flows are worth $37, below the $40 price.",
+    "method": "grid computed from the article's section 4 DCF table (unlevered free cash flow of 368, 398, 424, 438 and 453, terminal value at year 5 cash flow times one plus growth over the rate less growth, net debt 1.2 billion, 150 million shares); the article's $51, $37 and $40 cells reproduce",
+    "anchor": "Say the sensitivity out loud too. At an 8.5 percent discount"
+  },
+  {
+    "file": "04-bond-price-vs-yield-5-year-5-percent.png",
+    "alt": "Line chart of a 5-year 5 percent bond's price falling as market yield rises, with 1,045, 1,000 and 958 dollars marked",
+    "caption": "The same one point move in yields takes $42 off the price going up and adds $45 coming down; duration, in the next section, is the shortcut for that slope.",
+    "method": "curve computed with standard bond math (annual $50 coupons, $1,000 face, 5 years, price equals the present value of coupons and principal at the market yield); the article's $958 at 6 percent and $1,045 at 4 percent reproduce",
+    "anchor": "Price and yield move in opposite directions, and here's the "
+  }
+]

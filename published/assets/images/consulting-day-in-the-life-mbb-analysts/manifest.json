@@ -1,0 +1,47 @@
+[
+  {
+    "file": "01-case-team.png",
+    "alt": "Diagram of a consulting case team: a partner, an engagement manager and three consultants each owning one workstream",
+    "caption": "The partner checks the answer weekly, the engagement manager runs the team daily, and each consultant owns one workstream.",
+    "source": "Source: WSG analysis of the figures in this article.",
+    "method": "Diagram drawn in matplotlib from the three-layer team description and the cost-study workstreams in section 1",
+    "anchor": "The engagement manager breaks the question into workstreams.",
+    "regenerate_at_publish": false
+  },
+  {
+    "file": "02-client-site-week.png",
+    "alt": "Weekly calendar grid of a consultant's Monday to Friday showing travel, interviews, Excel work, team sessions and meetings",
+    "caption": "Monday starts at 5 a.m. with a flight, the client-site evenings run to 11:30 p.m., and Friday ends by 5:45.",
+    "source": "Source: Leland, a day in the life of a management consultant, February 2026, and WSG analysis.",
+    "method": "Calendar drawn in matplotlib from the Leland times quoted in sections 2 to 5; blocks without a printed time are placed approximately",
+    "anchor": "On a travel study, Monday starts at 5 a.m. A former McKinsey",
+    "regenerate_at_publish": false
+  },
+  {
+    "file": "03-pyramid-principle.png",
+    "alt": "Three-level pyramid diagram with one answer on top, two reasons below it and four evidence boxes underneath",
+    "caption": "The answer is the page title, the reasons sit under it, and the evidence sits under each reason.",
+    "source": "Source: WSG analysis of the figures in this article.",
+    "method": "Diagram drawn in matplotlib from the pyramid principle paragraph and its Midwest plant example in section 3",
+    "anchor": "The second is the pyramid principle, from Barbara Minto's bo",
+    "regenerate_at_publish": false
+  },
+  {
+    "file": "04-twelve-week-study.png",
+    "alt": "Timeline of a twelve-week consulting study with weekly Thursday client meetings and steering committees in weeks four, eight and twelve",
+    "caption": "Steering committees fall every three or four weeks, with a final one in week twelve.",
+    "source": "Source: WSG analysis of the figures in this article.",
+    "method": "Timeline drawn in matplotlib from the twelve-week study, the steering committee rhythm and the ghost deck paragraphs in sections 1, 3 and 4",
+    "anchor": "Every study runs on a rhythm of client meetings, and the big",
+    "regenerate_at_publish": false
+  },
+  {
+    "file": "05-week-split.png",
+    "alt": "Horizontal bar chart splitting a junior consultant's week across six activities, in percent and hours",
+    "caption": "Excel takes 28 percent of the week, pages 22 percent, and client meetings and interviews 15 percent.",
+    "source": "Source: Hacking the Case Interview, day in the life of a McKinsey consultant, June 2026.",
+    "method": "Chart from the section 6 table (six activities, percent of the week, hours in a 65-hour week)",
+    "anchor": "| Travel, email and admin | 12 percent | About 8 |",
+    "regenerate_at_publish": false
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "file": "01-five-formats-by-length.png",
+    "alt": "Horizontal range chart of the five modeling test formats by time, from paper LBO to take-home case",
+    "caption": "Four of the five formats fit inside an afternoon, and the one to plan your prep around is the two to four hour three statement build with a valuation on top.",
+    "method": "chart from the section 2 formats table (Time column), log time axis",
+    "anchor": "| Live build on a shared screen | 30 to 90 minutes | A short"
+  },
+  {
+    "file": "02-historicals-and-ratios.png",
+    "alt": "Excel Inputs tab with Torvik's 2023 to 2025 income statement, margins, tax rate, D&A, EBITDA and capex",
+    "caption": "Only the blue cells are typed. Every subtotal is a SUM and every ratio underneath is a formula, which is what lets you project the ratios instead of the dollars.",
+    "method": "workbook torvik-dcf.xlsx, tab Inputs, range B1:E24",
+    "anchor": "| Capex (from the cash flow statement) | 48.0 | 50.0 | 54.0 "
+  },
+  {
+    "file": "03-segment-build.png",
+    "alt": "Excel segment build with revenue, growth and mix for pumps, valves and controls, and aftermarket",
+    "caption": "The check row under total revenue reads 0.0 in every year, and the growth rows show the story: aftermarket grows about 9 percent while pumps grow about 4.",
+    "method": "workbook torvik-dcf.xlsx, tab Inputs, range B26:E37",
+    "anchor": "| Aftermarket Parts and Service mix | 24.4% | 25.2% | 25.9% "
+  },
+  {
+    "file": "04-scenario-switch.png",
+    "alt": "Close-up of the scenario switch cell on the Cover tab and the pumps growth row that reads it",
+    "caption": "One cell on the Cover tab holds a 2 for Base. The live pumps row runs a CHOOSE on that cell, so it shows the Base numbers, and every projection points at the live row.",
+    "method": "workbook torvik-dcf.xlsx, tab Cover range B12:F13 stacked over tab Inputs range B39:I44 (column H hidden)",
+    "anchor": "This is the block the scenario switch reads. For every drive"
+  },
+  {
+    "file": "05-assumptions-block.png",
+    "alt": "Excel assumptions block with Bear, Base and Bull rows and a shaded live row for each driver",
+    "caption": "Three typed rows per driver and a fourth shaded row that picks one. The fixed drivers at the bottom, days, D&A, capex and tax, don't change with the scenario.",
+    "method": "workbook torvik-dcf.xlsx, tab Inputs, range B39:G68",
+    "anchor": "| Tax rate on EBIT (all cases) | 25.0% | 25.0% | 25.0% | 25."
+  },
+  {
+    "file": "06-operating-build.png",
+    "alt": "Excel operating build for 2023 to 2030 from segment revenue down to EBITDA and capex",
+    "caption": "Historical columns are green links back to the Inputs tab and projected columns are black formulas. Revenue growth fades from 5.7 to 3.9 percent while EBITDA margin climbs to 19.0.",
+    "method": "workbook torvik-dcf.xlsx, tab DCF, range B1:J19",
+    "anchor": "| Capex | 48.0 | 50.0 | 54.0 | 57.1 | 60.1 | 63.1 | 66.0 | 6"
+  },
+  {
+    "file": "07-working-capital.png",
+    "alt": "Excel working capital schedule with receivables, inventory, payables, net working capital and days from 2022 to 2030",
+    "caption": "The bold (increase) / decrease row is the one that feeds free cash flow, and it's negative every year because a growing balance ties up cash.",
+    "method": "workbook torvik-dcf.xlsx, tab Schedules, range B1:K17",
+    "anchor": "| NWC as a percent of revenue |  | 18.8% | 18.6% | 18.5% | 1"
+  },
+  {
+    "file": "08-ppe-roll-forward.png",
+    "alt": "Excel PP&E roll-forward: beginning balance plus capex less depreciation equals ending balance, 2023 to 2030",
+    "caption": "Four rows and one formula: 384.0 plus 48.0 minus 40.0 lands on 392.0 in 2023, and each ending balance becomes the next year's beginning.",
+    "method": "workbook torvik-dcf.xlsx, tab Schedules, range B19:K25",
+    "anchor": "| D&A as a percent of revenue | 3.3% | 3.3% | 3.3% | 3.3% | "
+  },
+  {
+    "file": "09-cost-of-debt.png",
+    "alt": "Excel cost of debt tab with two tranches, weights by principal, 6.03 percent pre-tax and 4.52 percent after tax",
+    "caption": "Weight each tranche by principal, add up principal times rate, divide by total debt: 6.03 percent before tax and 4.52 after.",
+    "method": "workbook torvik-dcf.xlsx, tab Cost of debt, range B1:F11",
+    "anchor": "| After-tax cost of debt at a 25% tax rate |  |  | 4.52% |"
+  },
+  {
+    "file": "10-beta.png",
+    "alt": "Excel beta tab with five peer betas unlevered, the 0.968 median and Torvik relevered at 1.096",
+    "caption": "Unlever each peer, take the median of the five, then put Torvik's own 0.175 debt to equity back in to get a 1.096 beta.",
+    "method": "workbook torvik-dcf.xlsx, tab Beta, range B1:H14",
+    "anchor": "| Torvik relevered beta |  |  |  |  |  | 1.096 |"
+  },
+  {
+    "file": "11-wacc.png",
+    "alt": "Excel WACC tab building a 9.98 percent cost of equity and a 9.16 percent WACC",
+    "caption": "Five inputs and one weighted average. The green cells are links to the Beta, Cost of debt and Cover tabs, so each one traces back to where it came from.",
+    "method": "workbook torvik-dcf.xlsx, tab WACC, range B1:C17",
+    "anchor": "| WACC | 9.16% |"
+  },
+  {
+    "file": "12-ufcf-and-present-value.png",
+    "alt": "Excel block from EBIT to unlevered free cash flow, mid-year discount periods, discount factors and present values",
+    "caption": "Tax is on EBIT, the working capital line comes in negative from the Schedules tab, and the mid-year periods run 0.50 to 4.50, so the five present values sum to 627.9.",
+    "method": "workbook torvik-dcf.xlsx, tab DCF, range B21:J32",
+    "anchor": "| Present value of UFCF |  |  |  | 129.0 | 127.9 | 126.8 | 1"
+  },
+  {
+    "file": "13-formula-closeup.png",
+    "alt": "Close-up of the 2026 unlevered free cash flow column in Excel with each row's formula written beside it",
+    "caption": "What F2 would show in the 2026E column: tax is minus EBIT times the tax rate cell, working capital is a link, and the discount factor reads the WACC tab, with no typed number inside any formula.",
+    "method": "workbook torvik-dcf.xlsx, tab DCF, rows 21 to 32, columns B, F and L (other year columns hidden; column L holds the 2026E formulas as text)",
+    "anchor": "Walk 2026E. EBIT is 211.1. Tax at 25 percent is 52.8, leavin"
+  },
+  {
+    "file": "14-terminal-value-and-bridge.png",
+    "alt": "Excel terminal value and bridge from enterprise value to equity value to a 38.45 dollar share price",
+    "caption": "The terminal value is discounted five full years at 0.6450 even though the cash flows use mid-year, and the Gordon growth rows underneath bracket the answer at $34.67.",
+    "method": "workbook torvik-dcf.xlsx, tab DCF, range B34:C57",
+    "anchor": "| Current EV / LTM EBITDA (market, for reference) | 10.8x |"
+  },
+  {
+    "file": "15-value-bridge.png",
+    "alt": "Waterfall chart from present values and terminal value to enterprise value of 2,622.2 and equity value of 2,307.2",
+    "caption": "The five years of cash flow are worth 627.9 and the terminal value 1,994.3, which is why the exit multiple is the assumption a grader argues with first.",
+    "method": "chart from the section 5, Step 11 terminal value and bridge table",
+    "anchor": "Then the bridge from the whole company to the shareholders. "
+  },
+  {
+    "file": "16-sensitivity-grid.png",
+    "alt": "Excel sensitivity grid of implied share price by WACC down the side and exit multiple across",
+    "caption": "The shaded center cell matches the DCF at $38.45, and a half turn of multiple moves the price about twice as far as a half point of WACC.",
+    "method": "workbook torvik-dcf.xlsx, tab Sensitivity, range B1:H14 (body written as values, labeled as a data table)",
+    "anchor": "| 10.16% | $33.40 | $35.07 | $36.74 | $38.41 | $40.08 |"
+  },
+  {
+    "file": "17-time-budget.png",
+    "alt": "Timeline bar chart of the two-hour modeling test budget, block by block, with the DCF from 1:10 to 1:30",
+    "caption": "Lay the budget on one clock and the order is the point: the DCF is finished at 1:30, and everything after it is checking, sensitivities and cleanup.",
+    "method": "chart from the section 6 time budget table (Clock column)",
+    "anchor": "| 1:57 to 2:00 | Save with the filename the prompt asked for"
+  }
+]

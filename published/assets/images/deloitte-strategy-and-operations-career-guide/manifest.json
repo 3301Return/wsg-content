@@ -1,0 +1,44 @@
+[
+  {
+    "file": "01-three-reorganizations.png",
+    "alt": "Diagram of Deloitte Consulting's three structures since 2019 with the Strategy and Operations lineage highlighted in orange",
+    "caption": "Follow the orange thread: S&O split into two portfolios in 2019, and today its work sits in the Enterprise Strategy and Functional & Operations Strategy tracks.",
+    "method": "Diagram drawn in matplotlib from the three stages, the track list and the translation table in the draft; only names the draft states appear",
+    "anchor": "- AI Innovation, Infrastructure Engineering, and Cyber, the "
+  },
+  {
+    "file": "02-pay-by-track.png",
+    "alt": "Two bar charts of Deloitte analyst base pay and intern hourly rates by track from the firm's postings",
+    "caption": "The $105,000 strategy tracks are the ones with the 3.3 GPA floor and the case interview, and the intern rates rank the tracks the same way.",
+    "method": "Chart from the pay table in the draft (Deloitte posting estimates, each tagged [VERIFY] in the text)",
+    "anchor": "| Discovery Intern (last full posting, Summer 2025) | $32 an"
+  },
+  {
+    "file": "03-northline-cost-of-lateness.png",
+    "alt": "Excel screenshot of the Northline Foods late delivery cost table for last year and this year",
+    "caption": "Late deliveries went from 70 a week to 240, and at $150 each the annual cost went from $546,000 to $1,872,000, about $1.3 million more.",
+    "method": "Workbook scripts/images/models/northline-case.xlsx, sheet Northline case, range B5:E14",
+    "anchor": "| Annual cost of late deliveries (52 weeks) | $546,000 | $1,"
+  },
+  {
+    "file": "04-northline-capacity-and-loading.png",
+    "alt": "Excel screenshot of the Northline fleet capacity block showing utilization and deliveries lost to loading time",
+    "caption": "Forty trucks at 50 deliveries a week is 2,000 of capacity, and 15 extra loading minutes a day costs about 100 deliveries a week, so effective capacity is 1,900 against demand of 2,000.",
+    "method": "Workbook scripts/images/models/northline-case.xlsx, sheet Northline case, range B16:E29",
+    "anchor": "**Step three, find the cause.** Structure the possible cause"
+  },
+  {
+    "file": "05-northline-levers-and-payback.png",
+    "alt": "Excel screenshot of the two Northline levers, their costs, and the annual and year one savings",
+    "caption": "The loading fix recovers 100 deliveries a week for $120,000 once, three leased trucks add 150 for $450,000 a year, and the company keeps about $798,000 a year.",
+    "method": "Workbook scripts/images/models/northline-case.xlsx, sheet Northline case, range B31:F49",
+    "anchor": "If on-time delivery returns to 96 percent, late deliveries f"
+  },
+  {
+    "file": "06-recruiting-calendar-vs-mbb.png",
+    "alt": "Timeline from August 2026 to February 2028 of Deloitte's posted and expected recruiting windows against the expected MBB window",
+    "caption": "A sophomore who misses the MBB spring 2027 windows still has Deloitte's Summer 2028 window ahead of them that fall, so plan the case prep once and use it twice.",
+    "method": "Timeline drawn in matplotlib from the recruiting table and the planning paragraph in the draft; 2027 windows carry [VERIFY] tags and are shown as expected",
+    "anchor": "Here's the comparison that matters for planning. For Summer "
+  }
+]

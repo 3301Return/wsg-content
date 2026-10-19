@@ -1,0 +1,93 @@
+[
+  {
+    "file": "01-schedules.png",
+    "alt": "Excel PP&E and working capital schedules with the 2026 formulas shown beside each row",
+    "caption": "The two schedules under the income statement, with each row's 2026 formula beside it: the PP&E roll is beginning plus capex minus D&A, and receivables are revenue times DSO over 365.",
+    "method": "workbook three-statement-test.xlsx, sheet Model, range B36:I48",
+    "anchor": "**Step 2: the two supporting schedules.** Two small tables u"
+  },
+  {
+    "file": "02-balance-check-row.png",
+    "alt": "Close-up of the balance check row in Excel: total assets minus total liabilities and equity, 0.0 in every year",
+    "caption": "The check row is one subtraction, total assets minus total liabilities and equity, and it reads 0.0 in every year before the revolver is even built.",
+    "method": "workbook three-statement-test.xlsx, sheet Model, rows 50, 55, 61 and 62 of B:I (rows between hidden)",
+    "anchor": "**Step 5: cash back to the balance sheet.** Ending cash equa"
+  },
+  {
+    "file": "03-revolver-block.png",
+    "alt": "Excel debt and revolver block showing cash before revolver, the MAX draw formula, the MIN repayment formula and ending balances",
+    "caption": "The revolver block in the sheet: cash before the revolver is 16.4 in 2027, so the MAX formula draws 33.6, and in 2028 the MIN formula repays 19.0 of it.",
+    "method": "workbook three-statement-test.xlsx, sheet Model, range B83:I93",
+    "anchor": "**Step 6: the revolver plug.** A revolver is a revolving cre"
+  },
+  {
+    "file": "04-error-constant.png",
+    "alt": "Balance sheet in Excel with net PP&E mistyped as 412.0, so the check row reads 12.0 in every year",
+    "caption": "The constant pattern: 2025 net PP&E was typed as 412.0 instead of 400.0, and the check row carries the same 12.0 into every projected year.",
+    "method": "workbook three-statement-test.xlsx, sheet Error constant (2025A net PP&E typed as 412.0), range B50:I62",
+    "anchor": "**A constant difference in every projected year means a one-"
+  },
+  {
+    "file": "05-error-growing.png",
+    "alt": "Balance sheet in Excel where the PP&E roll never subtracts D&A, so the check row reads 44.0, 91.5 and 141.9",
+    "caption": "The growing pattern: the PP&E roll never subtracts D&A, so the check row grows by each year's D&A, 44.0, then 91.5, then 141.9.",
+    "method": "workbook three-statement-test.xlsx, sheet Error growing (PP&E roll drops the D&A term), range B50:I62",
+    "anchor": "**A growing difference means a recurring link is missing or "
+  },
+  {
+    "file": "06-check-patterns.png",
+    "alt": "Line chart of two balance check patterns: a flat line at 12.0 and a rising line from 44.0 to 141.9",
+    "caption": "Read the shape before the number: a flat line means something broke once, and a line that climbs by about the same amount each year means a recurring link is missing.",
+    "method": "chart from section 6 (constant 12.0 case and growing 44.0, 91.5, 141.9 case)",
+    "anchor": "The procedure, in order. Read the check row and classify the"
+  },
+  {
+    "file": "07-toggle-closeup.png",
+    "alt": "Close-up of the circularity toggle cell set to 0 and the interest expense formula that reads it",
+    "caption": "The toggle sits at the top of the drivers block, and interest expense reads it: with a 0 in D5 the IF picks beginning debt and the model has no circular reference.",
+    "method": "workbook three-statement-test.xlsx, sheet Model, rows 4, 5, 21, 29 and 30 of B:I (rows between hidden)",
+    "anchor": "**The toggle.** Put a cell at the top of the assumptions blo"
+  },
+  {
+    "file": "08-drivers.png",
+    "alt": "Excel drivers block for the worked example: growth, margins, days, tax, interest rates, amortization, payout and minimum cash by year",
+    "caption": "The whole model hangs off this block: blue cells are typed assumptions, the 2025A column is the historical ratio each one is based on, and the toggle at the top stays at 0.",
+    "method": "workbook three-statement-test.xlsx, sheet Model, range B1:G19",
+    "anchor": "| Circularity toggle | n/a | 0 | 0 | 0 |"
+  },
+  {
+    "file": "09-income-statement.png",
+    "alt": "Excel income statement for 2025A to 2028E from revenue of 1,000.0 down to net income of 98.5 and dividends",
+    "caption": "The same income statement in the sheet: costs are negative, every subtotal is a SUM, and only the 2025A column is typed in blue.",
+    "method": "workbook three-statement-test.xlsx, sheet Model, range B21:G34",
+    "anchor": "| Dividends (25% payout) | -18.8 | -20.9 | -23.2 | -24.6 |"
+  },
+  {
+    "file": "10-balance-sheet.png",
+    "alt": "Excel balance sheet for 2025A to 2028E with the revolver at 33.6 in 2027 and a 0.0 check row",
+    "caption": "The balance sheet with the check row underneath: cash lands on the 50.0 minimum in 2027 and 2028 because the revolver is doing its job, and the check reads 0.0 across.",
+    "method": "workbook three-statement-test.xlsx, sheet Model, range B50:G62",
+    "anchor": "| Balance check (assets minus liabilities and equity) | 0.0 "
+  },
+  {
+    "file": "11-cash-flow-statement.png",
+    "alt": "Excel cash flow statement for 2026E to 2028E with operating, investing and financing sections and ending cash",
+    "caption": "The cash flow statement with beginning and ending cash rows added, so the 2026 ending cash of 86.9 is visibly 80.0 plus the 6.9 net change.",
+    "method": "workbook three-statement-test.xlsx, sheet Model, range B64:G81",
+    "anchor": "| Memo: cash before revolver | 86.9 | 16.4 | 69.0 |"
+  },
+  {
+    "file": "12-cash-waterfall-2026.png",
+    "alt": "Waterfall chart of 2026 cash flow from net income of 83.7 through each flow to ending cash of 86.9",
+    "caption": "Walk the 2026 column as a bridge: operations bring in 112.8, capex, amortization and dividends take 105.9 of it back out, and cash ends the year 6.9 higher at 86.9.",
+    "method": "chart from the section 9 cash flow statement and balance sheet tables, 2026E column",
+    "anchor": "2026: net income 83.7, plus D&A 44.0, minus the 10.6 increas"
+  },
+  {
+    "file": "13-formula-closeup.png",
+    "alt": "Close-up of cash flow statement rows in Excel with the formulas that link net income, D&A and ending cash",
+    "caption": "What F2 shows the grader: net income is a reference to the income statement, D&A is a reference and not a typed 44, and ending cash is beginning cash plus the net change.",
+    "method": "workbook three-statement-test.xlsx, sheet Model, rows 64 to 70 and 78 to 80 of B:I (rows between hidden)",
+    "anchor": "Then they press F2 on three or four cells in the cash flow s"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "file": "01-hilton-timeline.png",
+    "alt": "Timeline of Blackstone's Hilton buyout from July 2007 to the May 2018 exit with six dated events",
+    "caption": "Hilton went from a $26 billion buyout to a 70 percent writedown to a $14 billion profit in eleven years, and every step of that story is a line in the model.",
+    "method": "Chart drawn from the dated figures in the article's introduction (as written in the draft, including the figures still under VERIFY tags)",
+    "anchor": "Why borrow so much? Because debt makes the equity work harde"
+  },
+  {
+    "file": "02-sources-and-uses.png",
+    "alt": "Excel screenshot of the TargetCo sources and uses table with the sponsor equity plug and a zero check cell",
+    "caption": "Sponsor equity is the plug, so the check cell under the table reads 0.0 and the equity line moves whenever a fee or a loan does.",
+    "method": "Workbook scripts/images/models/targetco-lbo.xlsx, sheet LBO, range B37:I46",
+    "anchor": "| **Total uses** | **1,050.0** | **Total sources** | **1,050"
+  },
+  {
+    "file": "03-operating-model.png",
+    "alt": "Excel screenshot of the TargetCo operating model from revenue to net income over five projected years",
+    "caption": "Revenue runs off one growth cell, EBITDA off a margin that steps up each year, and the two interest lines flow in from the debt schedule further down the sheet.",
+    "method": "Workbook scripts/images/models/targetco-lbo.xlsx, sheet LBO, range B48:I61",
+    "anchor": "| Net income |  | 30.9 | 39.0 | 48.1 | 58.2 | 69.5 |"
+  },
+  {
+    "file": "04-cash-flow-to-debt-paydown.png",
+    "alt": "Excel screenshot of the cash flow block from net income to cash available for debt repayment and ending cash",
+    "caption": "Net income is not the cash: D&A and the fee amortization come back, capex and the working capital build come out, and the line that is left is what the lenders get.",
+    "method": "Workbook scripts/images/models/targetco-lbo.xlsx, sheet LBO, range B63:I77",
+    "anchor": "| Ending cash (minimum cash $20) | 20.0 | 20.0 | 20.0 | 20.0"
+  },
+  {
+    "file": "05-debt-schedule.png",
+    "alt": "Excel screenshot of the TargetCo debt schedule by tranche with term loan paydown, notes, revolver and leverage ratios",
+    "caption": "Each tranche gets its own block: the term loan takes the mandatory 1 percent and then the whole sweep, the notes sit at $150.0 million collecting their coupon, and the revolver draw stays at zero because no year runs short.",
+    "method": "Workbook scripts/images/models/targetco-lbo.xlsx, sheet LBO, range B79:I109 with the Circ and Year 1 average balance rows hidden",
+    "anchor": "| EBITDA / cash interest | 2.19x | 2.50x | 2.90x | 3.44x | 4"
+  },
+  {
+    "file": "06-debt-balance-by-year.png",
+    "alt": "Stacked bar chart of TargetCo term loan and senior notes balances falling from 600 to 361 over five years",
+    "caption": "The notes never move, so every dollar of paydown comes out of the term loan and total debt falls from 6.0x to 2.4x EBITDA.",
+    "method": "Chart from the Section 5 debt schedule table (term loan and notes ending balances, total debt to EBITDA)",
+    "anchor": "The term loan ends Year 1 at $450.0 minus $4.5 minus $25.44,"
+  },
+  {
+    "file": "07-interest-formula-closeup.png",
+    "alt": "Excel close-up of the term loan block with Year 1 formulas for the cash sweep and the Circ interest toggle",
+    "caption": "The sweep is a MIN against the balance left, and the interest line is an IF on the Circ cell that swaps the beginning balance for the average, which is what moves Year 1 interest from 36.0 to 34.8.",
+    "method": "Workbook scripts/images/models/targetco-lbo.xlsx, sheet LBO, range B81:J92 with Years 2 to 5 hidden and the Year 1 formulas written as text in column J",
+    "anchor": "Here is the term loan block with its Year 1 formulas written"
+  },
+  {
+    "file": "08-returns.png",
+    "alt": "Excel screenshot of the returns block with exit value, exit equity, MOIC of 2.59x and IRR of 20.9 percent",
+    "caption": "Exit EBITDA times the same 10.0x, less the debt still outstanding, plus cash, is the equity; the MOIC formula and Excel's IRR function land on the same 20.9 percent.",
+    "method": "Workbook scripts/images/models/targetco-lbo.xlsx, sheet LBO, range B111:I125",
+    "anchor": "| IRR (5 years) | 20.9% |"
+  },
+  {
+    "file": "09-value-creation-bridge.png",
+    "alt": "Waterfall chart bridging 450 of sponsor equity to 1,164 of exit equity through EBITDA growth, debt paydown and fees",
+    "caption": "EBITDA growth and debt paydown explain all of the $714.3 million gain, the exit multiple adds nothing, and the $30.0 million of fees never comes back.",
+    "method": "Chart from the Section 5 returns discussion (EBITDA growth $505.5, debt paydown $238.8, multiple $0.0, fees $30.0)",
+    "anchor": "Where did the $714.3 million of equity gain come from? EBITD"
+  },
+  {
+    "file": "10-sensitivity-entry-exit.png",
+    "alt": "Excel screenshot of the IRR sensitivity grid for entry multiple against exit multiple, 8.0x to 12.0x",
+    "caption": "Read down the 10.0x column: paying one turn less at entry adds about six points of IRR, more than any operating lever in this model.",
+    "method": "Workbook scripts/images/models/targetco-lbo.xlsx, sheet LBO, range B127:I134 (values computed in build_targetco_lbo.py the way the article's writer did, laid out as a data table)",
+    "anchor": "| 12.0x | 5.8% | 9.3% | 12.4% | 15.1% | 17.7% |"
+  },
+  {
+    "file": "11-sensitivity-leverage-exit-year.png",
+    "alt": "Excel screenshot of the IRR sensitivity grid for leverage from 4.0x to 7.0x against exit years three to seven",
+    "caption": "Each extra turn of leverage adds two to four points of IRR, while each extra year of holding trims it even as the MOIC keeps rising.",
+    "method": "Workbook scripts/images/models/targetco-lbo.xlsx, sheet LBO, range B136:I142 (values computed in build_targetco_lbo.py the way the article's writer did, laid out as a data table)",
+    "anchor": "| 7.0x | 25.5% | 24.8% | 24.0% | 23.2% | 22.4% |"
+  },
+  {
+    "file": "12-paper-lbo.png",
+    "alt": "Excel screenshot of the paper LBO with purchase price, five years of rounded cash flow and the exit returns",
+    "caption": "The same five steps on one sheet: interest rounded to the nearest million, free cash flow to the nearest five, and the answer still lands within a tenth of a point of the exact 27.0 percent.",
+    "method": "Workbook scripts/images/models/targetco-lbo.xlsx, sheet Paper LBO, range B5:H35",
+    "anchor": "| 5 | 150 | 130 | 23 | 107 | 80 | 80 | 205 |"
+  }
+]

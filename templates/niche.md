@@ -2,7 +2,7 @@
 
 **Use when:** Firm/role posts, edge-case student situations, or honest reviews. The niche template flexes across all three sub-types.
 **Examples:** "How to Break Into Evercore Restructuring" · "Breaking Into IB From a Junior Transfer at a Non-Target" · "Is Wall Street Prep Worth It? 4 Pros and Cons You Need to Know"
-**Length target:** about 4,500 to 5,500 words (about 20 to 25 pages in the built .docx before images). Narrow niches can be much shorter. Longer only when the topic truly needs it; say why in the Thoroughness Report.
+**Length (October 14, 2026):** length follows the question. Focused pieces about 2,500 to 3,500 words; in-depth guides up to about 5,000 to 6,000 (20 to 25 pages). Write the editorial plan in SKILL.md first; its budget is the target.
 **Required:** Direct-answer intro · 1-2 H2 sub-questions · Heavy use of specifics (firm names, real numbers, named scenarios) · Anchored to a deep dive when one exists
 
 ---

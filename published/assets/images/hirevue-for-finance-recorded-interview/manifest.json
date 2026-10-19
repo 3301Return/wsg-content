@@ -1,0 +1,50 @@
+[
+  {
+    "file": "01-banks-recorded-interview.png",
+    "alt": "Table of 11 banks showing whether each uses a recorded interview, what candidates report and the source",
+    "caption": "Goldman, JPMorgan, Morgan Stanley, Bank of America and Citi all run a recorded round.",
+    "source": "Firm careers pages, court records, Glassdoor and prep guides, October 2026",
+    "method": "Table graphic drawn in matplotlib from the first 11 rows of the section 1 firm table, candidate reports trimmed to a few words",
+    "anchor": "Two patterns in the table are worth knowing before you apply"
+  },
+  {
+    "file": "02-boutiques-and-others-recorded-interview.png",
+    "alt": "Table of nine boutiques, asset managers and other firms showing recorded or live first rounds and the source",
+    "caption": "Evercore, PJT and Moelis interview live from the first round; Lazard records mainly outside the US.",
+    "source": "Firm careers pages, Glassdoor and prep guides, October 2026",
+    "method": "Table graphic drawn in matplotlib from the last nine rows of the section 1 firm table, candidate reports trimmed to a few words",
+    "anchor": "The elite boutiques run smaller processes and skip the recor"
+  },
+  {
+    "file": "03-on-screen-sequence.png",
+    "alt": "Flow diagram of the 13 HireVue screens from the invitation email to the upload of your answers",
+    "caption": "Steps 1 to 9 are setup you can do days early; the clocks start at step 10, Start Now.",
+    "source": "HireVue Candidate Help Center, on-demand interview articles, October 2026",
+    "method": "Sequence diagram drawn in matplotlib from the 13 numbered steps in section 2 of the draft",
+    "anchor": "Step 3 tells you the total length, so you can plan your ener"
+  },
+  {
+    "file": "04-answer-word-budget.png",
+    "alt": "Horizontal bar chart of a 150-word answer split into situation 25, task 15, action 85 and result 25 words",
+    "caption": "The action gets around 85 of the 150 words; situation, task and result share the other 65.",
+    "source": "WSG analysis of the answer plan in this article",
+    "method": "Bar chart drawn in matplotlib from the section 5 word budget (25, 15, 85, 25 words; 150 total; about 70 to 90 seconds)",
+    "anchor": "Here's what 150 words looks like, split the way I'd split it"
+  },
+  {
+    "file": "05-recording-setup.png",
+    "alt": "Diagram of a HireVue recording setup: lamp in front, laptop on books, lens at eye level, camera window top center",
+    "caption": "Light in front, camera window at the top center of the screen, lens level with your eyes, quiet room.",
+    "source": "HireVue interview tips page and candidate FAQ, October 2026",
+    "method": "Setup diagram drawn in matplotlib from the section 6 rules (light in front, camera window near the top center, lens at eye level, quiet room, 480p)",
+    "anchor": "**Put your light in front of you, the camera window at the t"
+  },
+  {
+    "file": "06-invitation-to-next-step.png",
+    "alt": "Timeline of Goldman and JPMorgan HireVue timing from application through the recording window to the next step",
+    "caption": "A JPMorgan link can arrive within hours of applying; Goldman's takes about a week.",
+    "source": "eFinancialCareers and Glassdoor, candidate-reported HireVue timing, October 2026",
+    "method": "Timeline drawn in matplotlib from the section 7 timing list (Goldman: invite about a week, about a week to complete, response about two weeks; JPMorgan: invite within hours, 7 days, superday invite about two weeks after recording); reported timing, not firm-published",
+    "anchor": "**Goldman's invitation usually arrives about a week after yo"
+  }
+]

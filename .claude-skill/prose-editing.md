@@ -1,6 +1,6 @@
 ---
 name: wsg-prose-editing
-description: Prose-level editing rules for WallStreetGuide (WSG) articles from the July 2026 editorial review, the September "say it out loud" test, and the October 2026 founder and Stephen reviews (plain and signposted headers, question headers, full-sentence bolds, no unsupported opinions, length target). Use when writing, editing, or reviewing WSG articles or any draft that should not read as AI-written. Trigger on requests to cut AI tells, remove echo sentences or em-dashes, humanize a draft, shorten a draft, improve sentence variety, fix odd or off-register wording, or apply burstiness and perplexity principles.
+description: Prose-level editing rules for WallStreetGuide (WSG) articles from the July 2026 editorial review, the September "say it out loud" test, and the October 2026 founder, Stephen and Sanskar reviews (plain and signposted headers, question headers, full-sentence bolds, no unsupported opinions, length, staying in the article's own field, no trivia, no firm-side why, judging every section, no absolutes, saying each point once, reader level, example proportion). Use when writing, editing, or reviewing WSG articles or any draft that should not read as AI-written. Trigger on requests to cut AI tells, remove echo sentences or em-dashes, humanize a draft, shorten a draft, improve sentence variety, fix odd or off-register wording, or apply burstiness and perplexity principles.
 ---
 
 # WSG Prose Editing
@@ -9,7 +9,7 @@ Pruning and variance rules from the July 2026 editorial review, extended in Sept
 
 Canonical repo copy: `style-guide/editorial-rules.md` Part 2. This module is the packaged mirror so the rules travel with the skill; edit the repo copy first, then re-mirror here and repackage.
 
-Source: the July 12, 2026 edit pass on the consulting cover letter draft, the August 27 founder review, the October 7 founder review, and Stephen's October 8 reference list. Every existing rule in `style-guide/style-guide.md` and `style-guide/editorial-rules.md` Part 1 still applies.
+Source: the July 12, 2026 edit pass on the consulting cover letter draft, the August 27 founder review, the October 7 founder review, Stephen's October 8 reference list, the October 12 founder and Sanskar notes on the consulting resume draft, and the October 14 founder review of the STAR and Accenture drafts. Every existing rule in `style-guide/style-guide.md` and `style-guide/editorial-rules.md` Part 1 still applies.
 
 ## 1. Cut echo enders. Keep payoffs.
 
@@ -146,24 +146,93 @@ H2 sub-questions and FAQ entries are phrased the way a student types them into G
 
 ## 14. Bolded sentences are full sentences with a fact (October 8, 2026)
 
-Stephen flagged the Sophomore Insights opener as the model: the bolded line is a complete sentence with a concrete number in it ("roughly 5 to 10 times more likely to convert into a Summer Analyst offer"). Bold a sentence that would still make sense pasted alone, carries a fact or a clear rule, and is the one thing a skimmer should take from that section. Never bold a fragment, a label, or a sentence that only sets up the next one.
+*October 14: a bold can and should carry a qualifier where the fact varies (rule 21), and not every section needs one.* Stephen flagged the Sophomore Insights opener as the model: the bolded line is a complete sentence with a concrete number in it ("roughly 5 to 10 times more likely to convert into a Summer Analyst offer"). Bold a sentence that would still make sense pasted alone, carries a fact or a clear rule, and is the one thing a skimmer should take from that section. Never bold a fragment, a label, or a sentence that only sets up the next one.
 
 ## 15. No unsupported opinions about what people get wrong (October 8, 2026)
 
 Stephen's criticism of the Casey opener: "weirdly opinionated about what people get wrong without showing evidence." Cut sentences that claim what "most candidates" think, expect, miss or get wrong unless the next sentence gives the evidence (a survey, a firm's own statement, a number). If there's no evidence, state the fact the reader needs instead: what the test is, how long it takes, how it's scored.
 
-## 16. Length: cut to the target (October 8, 2026)
+## 16. Length: cut to the plan's budget (October 8, updated October 14, 2026)
 
-Sanskar's note: recent drafts run about 35 pages without images. The target is about 20 to 25 pages (roughly 4,500 to 6,000 words at WSG .docx spacing; SKILL.md has the details). Over is fine when the topic truly needs it, but the default is to land in range. Cut in this order, before touching any explanation step:
+Length follows the question (October 14, 2026): focused pieces about 2,500 to 3,500 words, in-depth guides up to about 6,000 (SKILL.md has the details). The editorial plan sets the budget. When a draft runs over its budget, cut in this order, before touching any step of what the reader will do:
 
 1. Echo enders and recaps (rule 1). A closing section never re-summarizes the article.
 2. Second and third worked examples of the same mechanism. Keep the best one and give the follow-ups as one or two sentences.
 3. Tables that repeat what the prose already said, and prose that repeats a table.
 4. "Honest read," "what this means for you" and "the trade-off" sections that restate earlier sections.
 5. Background the reader didn't come for (founding history, long firm lists, every deal in a year).
-6. Say/don't blocks beyond four or five.
+6. Say/don't blocks beyond two or three, or any that repeat what the examples already showed.
+7. Explanations of how the system works (how firms score, the research behind a method, why a process exists) when the reader only needs what to do (rule 22). Levels and detail above the reader's stage (rule 23). Points already made in another format (rule 22).
+8. Comparisons with another field outside the one allowed comparison section (rule 17), history and trivia (rule 18), and firm-side "why" setups (rule 19). Items 7 and 8 usually go before anything in items 1 to 6.
 
-Never cut a step from an explanation to hit the number (`thorough-explanations.md`). Cut repetition and side material instead.
+Never cut a step from what the reader will do (`thorough-explanations.md`). Cut repetition, background and side material instead.
+
+## 17. Stay in the article's own field (October 12, 2026)
+
+Sanskar's flag on the consulting resume draft: it opened its skeleton by comparing consulting resumes with banking resumes, and a later paragraph said "students treat a consulting resume as a banking resume with the order changed." His note: "a bug in the system where a lot of consulting banking becomes interlinked... deflecting the point into banking resume opposed to explaining what is actually the issue."
+
+A consulting article explains consulting. A banking article explains banking. Don't explain one by contrasting it with the other ("unlike banking," "a banker would," "the banking version of this"). Explain the thing directly.
+
+A comparison belongs in an article only when the reader is choosing between the two (salary, hours, "consulting vs banking"), and then once, in its own clearly labeled section or sub-question, kept short. Nowhere else.
+
+## 18. No history or trivia the reader can't act on (October 12, 2026)
+
+Flagged: a consulting resume paragraph built on Leonardo da Vinci's 1482 letter to Ludovico Sforza as "the earliest known resume." Reaction: "🤢."
+
+Cut founding dates, reorganization timelines, who coined a term and when, "the earliest known," famous-person anecdotes, and firm-level revenue and headcount in articles about a junior role. **The test:** if a student deleted the sentence, would they do anything differently? If not, it goes. A one-clause attribution ("the pyramid principle, from Barbara Minto's book") is fine. A biography isn't.
+
+## 19. Say what to do, not why the firm does it (October 12, 2026)
+
+Flagged: a section that opened "Start on the firm's side of the table. McKinsey receives roughly 1 million resumes annually... The resume screen exists to get the stack down to the people worth 45 minutes of a consultant's time." Sanskar: "the student doesn't need the 'why' behind resume screenings."
+
+Cut firm-side setups ("start on the firm's side," "the screen exists to," "the firm is trying to," "to understand X you have to understand why firms...") and application-volume statistics used to justify a process. Give the student the what and the how. Keep a "why" only when it changes what the student does, and then as one clause attached to the instruction ("Put GPA on its own line, because the screener checks it first").
+
+This narrows the older "lead with the company's perspective" rule (SKILL.md editorial rule 4), which was being over-applied.
+
+## 20. Judge every section against the headline (October 12, 2026)
+
+The founder's note on the same batch: "the process just seems like it's following instructions too much without using its own intelligence." Templates, briefs and outlines list sections that might help. They're not a checklist.
+
+Before delivering, give every H2 a verdict: keep, cut, shrink or rewrite. **The question:** does a student reading this headline need this section to do what the headline promises? Background sections, "how this differs from X" sections, tables that repeat the prose, and closers that recap all fail it. Cut them or fold their one useful fact into a section that passes. Shorter is fine when the topic is covered; never pad back to the length target.
+
+## 21. Conversational, not absolute (October 14, 2026)
+
+The founder: "The writing is still a little AI-y and absolute in places. Things like 'five stories cover every behavioural question' or making very definite statements about how recruiters score candidates aren't really the tone we're going for, and aren't necessarily true in every case... Whenever it sounds like a Nat Geo narrator, that's an issue."
+
+Recruiting varies by firm, office, team, interviewer and year. Write like someone who knows the field talking to a student: "usually," "often," "most firms," "some banks," "in most first rounds," "a common approach is." Use a qualifier where it's true, not on every sentence; a plain fact ("Goldman's first round is a HireVue") stays plain.
+
+| Cut this | Write this |
+| --- | --- |
+| "Five stories cover every behavioral question." | "Five stories usually cover most of what you'll be asked." |
+| "The interviewer is scoring Partnership." | "A Goldman interviewer will often be listening for teamwork." |
+| "Banks score your answers against a rubric." | "Many banks use a set list of qualities when they review answers." |
+| "That's the format at the banks." | "That's how most large banks run it." |
+| "Every one of the six fixes can be run in ten minutes." | "Most of these fixes take a few minutes on a written story." |
+
+Narrator voice is a sentence that pronounces on how the world works from above: sweeping, certain, slightly dramatic. "The structure has to be automatic by the time the question appears." "A smaller true story beats a bigger invented one." "This is how influence works inside a bank." Say it as advice instead: "It helps to have the structure down before the first question." Bolded sentences follow the same rule.
+
+## 22. Say each point once, and teach the doing, not the system (October 14, 2026)
+
+The founder on the STAR draft: "we've spent so much time explaining how banks score interviews, the research behind structured interviews... does a student really need all of that to learn how to give a better STAR answer?" And: "eight full sample answers, explanations after each, a table mapping 19 questions, and then another 'say this, don't say that' section... the student should get the meat of it quicker."
+
+Two failures, one fix each:
+
+- **Explaining the system.** How firms score, what the research says, why a method exists, how a process works behind the scenes. If the reader's goal is to do something (give an answer, apply, pass a test), the system gets two lines at most. The words go to the doing.
+- **Repeating a point in several formats.** An example, then an explanation of the example, then a table, then a say/don't block, all landing the same lesson. Pick the one format that teaches it fastest. Three or four sample answers that each show something different beat eight that show the same shape. A short note after an example is fine only when it adds what the example doesn't show.
+
+Also: no two sections with the same purpose. If section 1 explains why the Action matters and section 6 has a mistake about the Action, merge them.
+
+## 23. Match the reader's level (October 14, 2026)
+
+The founder: "The Accenture article goes into Managing Director salaries; for someone looking at an entry-level Analyst role, I don't think all of that is necessary."
+
+Cover the reader's seat in detail. Anything above or beside it gets a line: "Consultants (two to three years in) earn about $X; pay rises from there." A full pay ladder, a senior career path or partner economics belongs in an article about those roles.
+
+## 24. Keep examples in proportion (October 14, 2026)
+
+The founder: "multiple pages going across the kitchen cabinet case doesn't make sense as this isn't the interview or how-to-break-in guide; we can keep it sure, but like 1 page."
+
+A worked example illustrates the section it sits in. In a career or role guide, a practice case or sample answer runs about a page. In an article whose whole question is that example (a case interview guide, a sample-answers article), it can run longer. Size the example to the article's question, not to how much there is to say about it.
 
 ## Mechanical spot checks (run before docx build)
 
@@ -177,7 +246,14 @@ Never cut a step from an explanation to hit the number (`thorough-explanations.m
 - Say-it-out-loud suspects: `grep -inE "the headline|brochure|center of gravity|lobby|catches people|rattled|case clock|under a clock" drafts/{file}.md` and apply rule 9.
 - Effort counts: `grep -nE "\b[0-9]{2,3} (practice )?(cases|flashcards|mocks|hours)" drafts/{file}.md`.
 - Skim test: `grep -oE "\*\*[^*]+\*\*" drafts/{file}.md` and read the bolds top to bottom. Each is a full sentence (rule 14), and together they tell the argument.
-- Length: `wc -w drafts/{file}.md` against the SKILL.md target.
+- Length: `wc -w drafts/{file}.md` against the editorial plan's budget.
+- Other field (rule 17): in a consulting article `grep -inE "bank|banker|goldman|jpmorgan|wall street" drafts/{file}.md`; in a banking article `grep -inE "consult|mckinsey|bcg|bain" drafts/{file}.md`. Every hit sits in the one comparison section the topic needs, or goes.
+- History and trivia (rule 18): `grep -inE "history|historically|founded|in 1[0-9]{3}|earliest|first (woman|female|known)|renamed|reorganiz" drafts/{file}.md` and apply the deletion test.
+- Firm-side why (rule 19): `grep -inE "firm's side|side of the table|exists to|is trying to|the reason (firms|the firm)|receives (roughly |about )?[0-9]" drafts/{file}.md`.
+- Absolutes and narrator voice (rule 21): `grep -inE "\b(every|always|never|all|only|the number is|exactly|cover(s)? every|is scoring|are scoring|the interviewer (is|wants|hears)|what (banks|firms|recruiters) want)\b" drafts/{file}.md` and read each hit. Keep it if it's literally true; otherwise add the qualifier or say it as advice.
+- Repetition (rule 22): list the article's key points and where each appears. Any point taught in two places or two formats keeps one.
+- Level and proportion (rules 23 and 24): any table or section about levels above the reader's, and any example over about a page in a non-interview article, gets cut down.
+- Section verdicts (rule 20): list every H2 with keep / cut / shrink / rewrite and one reason before the docx build.
 - `python3 scripts/check_style.py drafts/{file}.md` still gates the build.
 
 ## Where these rules live

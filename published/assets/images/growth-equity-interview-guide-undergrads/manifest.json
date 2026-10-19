@@ -1,0 +1,58 @@
+[
+  {
+    "file": "01-venture-growth-buyout.png",
+    "alt": "Comparison diagram of venture, growth equity and buyout by company stage, stake size, debt and source of returns",
+    "caption": "Read across the Debt row: buyout borrows to pay the price, growth equity usually writes an all-equity check, so the only lever left is the revenue line.",
+    "method": "Diagram from the article's section 1 text (stage, stake, debt and returns for each strategy, phrased as the article states them; the venture debt cell is marked as not covered)",
+    "anchor": "**Buyout returns come from debt and margin; growth equity re"
+  },
+  {
+    "file": "02-arr-bridge-and-retention.png",
+    "alt": "Excel screenshot of the Harborline ARR bridge from 40 to 60 million with growth, gross and net retention",
+    "caption": "Ending ARR is a SUM of the four bridge lines, and each retention figure is a ratio of two of them, which is why the bridge is the first thing an investor asks for.",
+    "method": "Workbook scripts/images/models/harborline-screen.xlsx, sheet Metrics, range B5:F19",
+    "anchor": "| Net revenue retention | 105.0% | (40.0 minus 4.0 plus 6.0)"
+  },
+  {
+    "file": "03-unit-economics.png",
+    "alt": "Excel screenshot of Harborline's cost inputs and unit economics, from CAC and payback to the Rule of 40",
+    "caption": "Every metric in the lower block is a formula on the inputs above it, so changing churn or sales spend, as the week 2 drill asks, moves all eight at once.",
+    "method": "Workbook scripts/images/models/harborline-screen.xlsx, sheet Metrics, range B21:F41",
+    "anchor": "| Rule of 40 score | 40 | 50.0% growth plus (10.0%) margin |"
+  },
+  {
+    "file": "04-round-and-cap-table.png",
+    "alt": "Excel screenshot of the Harborline Series C round terms and the cap table before and after the investment",
+    "caption": "Price per share is pre-money over the old share count, and the founders' 60 percent becomes 50 percent without selling a share, the same answer as 60 percent times 500 over 600.",
+    "method": "Workbook scripts/images/models/harborline-screen.xlsx, sheet Deal, range B5:G24",
+    "anchor": "| Total | 50,000,000 | 100.0% | 60,000,000 | 100.00% |"
+  },
+  {
+    "file": "05-preference-formulas.png",
+    "alt": "Excel close-up of the Bear case payout row with each liquidation preference formula written out beside its value",
+    "caption": "The non-participating payout is one line, the bigger of the preference and the as-converted share, capped at what the company sold for; participating adds the share on top of the preference.",
+    "method": "Workbook scripts/images/models/harborline-screen.xlsx, sheet Returns, range B45:I52 (the Bear row's formulas written as text beside their live values)",
+    "anchor": "| Bull | $3,240.0 | $540.0 | $100.0 | $540.0 | convert to co"
+  },
+  {
+    "file": "06-exits-payouts-moic-irr.png",
+    "alt": "Excel screenshot of the three Harborline exit scenarios, the payout to the preferred, and MOIC and IRR",
+    "caption": "Only the blue inputs change between rows, ARR in year 5 and the exit multiple, and everything from equity value to the 22.9 percent Base case IRR follows from those two cells.",
+    "method": "Workbook scripts/images/models/harborline-screen.xlsx, sheet Returns, range B13:I29",
+    "anchor": "| Bull | 5.40x | 40.1% | 5.40x | 40.1% | 6.23x | 44.2% |"
+  },
+  {
+    "file": "07-moic-by-scenario.png",
+    "alt": "Grouped bar chart of MOIC in the Bear, Base and Bull cases as common, non-participating and participating preferred",
+    "caption": "The orange bars match the blue ones in Base and Bull and only rise in Bear, while the green participating bars sit higher in every case, which is the $83.3 million founders fight over.",
+    "method": "Chart from the section 11 MOIC and IRR table (0.45x, 2.80x, 5.40x as common; 1.00x, 2.80x, 5.40x non-participating; 1.28x, 3.63x, 6.23x participating)",
+    "anchor": "**A 1x preference turns a 0.45x outcome into a 1.00x outcome"
+  },
+  {
+    "file": "08-bear-case-exit-waterfall.png",
+    "alt": "Waterfall chart of a 270 million Bear case exit, with 100 million to the preferred first and 170 million left",
+    "caption": "At a $270.0 million sale the preference takes $100.0 million off the top instead of the $45.0 million the firm's 16.67 percent would have earned, and the common holders split the $170.0 million left.",
+    "method": "Chart from the section 11 who-gets-what table, Bear row ($270.0 equity value, $100.0 to the preferred, $170.0 and 63.0 percent to the common), with the $45.0 as-common payout from the step 4 table",
+    "anchor": "| Bull | $3,240.0 | $540.0 | $2,700.0 | 83.3% |"
+  }
+]

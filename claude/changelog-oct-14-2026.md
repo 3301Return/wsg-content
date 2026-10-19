@@ -1,0 +1,20 @@
+# Changelog: October 14, 2026 (founder review of the STAR and Accenture drafts)
+
+## The feedback
+
+Overexplanation (how banks score interviews, research on structured interviews), material beside the reader's level (MD salaries in an entry-level guide; several pages on one practice case), repetition (eight sample answers, notes after each, a 19-question table and a say/don't section), and an absolute, "Nat Geo narrator" tone. Sections should each have a distinct purpose. The fix he asked for: better editorial decisions before writing and more quality control. Length: the strict 20 to 25 page target was causing overwriting; focused pieces closer to 2,500 to 3,500 words, in-depth guides up to 20 to 25 pages. Follow-up the same day: the thoroughness skill has to work both ways. Some articles don't explain enough (an interview question, the steps and what they mean); others explain things that aren't relevant (the history of resumes, how banks score interviews). The focus is the core how-to, researched from good sources and reused as the explanation.
+
+## Skill changes
+
+- `SKILL.md`: new October 14 section at the top (10 rules); an **editorial plan** before drafting (reader, question, three-sentence answer, the core, explain fully with sources / two lines / cut, one purpose per section, one format per point, length budget); a **quality review** by a separate pass before delivery (workflow step 9), checking both core depth and off-core bloat; flexible length table replacing the 20 to 25 page target; say/don't blocks optional; bolding relaxed (no bold quota, hedges allowed); "be specific where it helps" replaces "every section needs a specific"; a seventh gut-check question; revisions fix named problems in place rather than rewriting.
+- `thorough-explanations.md`: rebuilt around **the core**: explain what the reader came to learn how to do deeply (what it's asking for, the steps, what each means, how to do it well, a worked example and what each part does), from researched how-to material; keep background (history, scoring, studies) to two lines or none. Report now lists core depth added and off-core cuts.
+- `prose-editing.md` (and `style-guide/editorial-feedback-july-2026.md`): rules 21 (conversational, not absolute), 22 (say each point once; teach the doing, not the system), 23 (match the reader's level), 24 (examples in proportion); rule 16 cut order and say/don't limit updated; new spot checks for absolutes, repetition, level and proportion.
+- `consulting.md`, `templates/*.md`, `CLAUDE.md`: length and say/don't rules aligned.
+- Packaged: `skills/wsg-article.skill`, `skills/wsg-prose-editing.skill`, `skills/thorough-explanations.skill`. Account updates proposed for all three.
+
+## Article fixes (targeted, per `claude/fix-plan-oct-14-2026.md`, then an independent quality review)
+
+| Article | Version | Body words | Pages with images | Images | What changed |
+| --- | --- | --- | --- | --- | --- |
+| The STAR Method for Finance Interviews | v1 → v2 | 5,622 → 3,297 | 23 → 14 | 5 → 3 | Cut the scoring and structured-interview research section and chart, the per-bank competency lists, the 19-question table and its image, four of eight answers, the notes after each answer, the say/don't section, HireVue history, repeated MIT quotes. Review then added depth to the core: what a strong Situation, Task, Action and Result contain (weak vs strong Action), how to find and draft your five stories, one note on what answer 2 does well (MIT, Harvard, Penn, IGotAnOffer). Tone hedged throughout. |
+| Accenture Strategy Analyst Career Guide | v2 → v3 | 4,900 → 3,524 | 22 → 15 | 4 → 2 | Cut the pay-by-level table and chart (to MD), stock, promotion timing, career-level numbering, most of the practice case (now about a page), the comparison-table image, repeated prose, the say/don't section (its "why Accenture" answer moved into the application section). Review then added depth to the core: the workbook's case steps, market sizing out loud, how to handle each interview stage, how to answer "why Accenture Strategy" (Accenture workbook, Hacking the Case Interview, IGotAnOffer). |
